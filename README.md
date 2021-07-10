@@ -5,13 +5,14 @@
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. -->
 
 <div align="left">
-<img src=".\image\head.png" height="300px" alt="A third year PhD student from
-School of Computing and Information Systems, The University of Melbourne" >
+<img src=".\image\head.png" style="width: 180px; height: 192px; float: right; margin: 10px" >
+<p>A third year PhD student from
+School of Computing and Information Systems, The University of Melbourne</p>
 </div>
 
 
 
-[cv](.\cv\resume.pdf), [cv-zh_CN](.\cv\resume-zh_CN.pdf)
+[[cv]](.\cv\resume.pdf), [[cv-zh_CN]](.\cv\resume-zh_CN.pdf)
 
 ### Markdown
 
