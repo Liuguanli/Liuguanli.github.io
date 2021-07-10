@@ -1,4 +1,4 @@
-## Welcome to Guanli Liu's Pages
+## Guanli Liu
 
 <!-- You can use the [editor on GitHub](https://github.com/Liuguanli/Liuguanli.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -10,9 +10,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 School of Computing and Information Systems, The University of Melbourne</p>
 </div>
 
-
-
+<div align="left">
 [[cv]](.\cv\resume.pdf), [[cv-zh_CN]](.\cv\resume-zh_CN.pdf)
+</div>
 
 ### Markdown
 
