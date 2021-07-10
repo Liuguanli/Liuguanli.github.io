@@ -10,9 +10,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 School of Computing and Information Systems, The University of Melbourne</p>
 </div>
 
-<div align="left">
+---
+
 [[cv]](.\cv\resume.pdf), [[cv-zh_CN]](.\cv\resume-zh_CN.pdf)
-</div>
 
 ### Markdown
 
