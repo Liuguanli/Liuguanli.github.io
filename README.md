@@ -56,8 +56,9 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
 
 ### Work Experience
-
-
-
+1. Tutor of Comp90041 (Programming and Software Development), The University of Melbourne  , 2020 & 2021 Semester 1
+2. Tutor of Comp90018 (Mobile Computing), The University of Melbourne, 2019 Semester 2
+3. Senior Researcher and Developer, Baidu Inc, 2015 -- 2017
+4. Software Engineer, Neusoft Inc, Jun. 2012 -- Sep. 2012
 ### Others
 
