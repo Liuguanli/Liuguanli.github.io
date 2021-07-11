@@ -14,9 +14,6 @@ I got my master's degree and bachelor'sdegree in Northeastern University.
 </p>
 </div>
 
-
----
-
 [[cv]](.\cv\resume.pdf), [[cv-zh_CN]](.\cv\resume-zh_CN.pdf)
 
 ---
