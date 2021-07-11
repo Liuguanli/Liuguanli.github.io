@@ -6,17 +6,34 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <div align="left">
 <img src=".\image\head.png" style="width: 180px; height: 192px; float: right; margin: 10px" >
-<p>A third year PhD student from
-School of Computing and Information Systems, The University of Melbourne</p>
+<p>I'm a third year PhD student from
+school of Computing and Information Systems (CIS), The University of Melbourne (UoM), supervised by Dr. Jianzhong Qi and Prof. Lark Kulik.
+My research focuses on using machine learning to spatial indices.
+Prior to UoM, I was an senior software engineer in Baidu (Beijing, China).
+I got my master's degree and bachelor'sdegree in Northeastern University.
+</p>
 </div>
+
 
 ---
 
 [[cv]](.\cv\resume.pdf), [[cv-zh_CN]](.\cv\resume-zh_CN.pdf)
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Contact
+
+guanli@student.unimelb.edu.au
+
+### Publications
+
+1. Guanli Liu, Lars Kulik, Xingjun Ma, Jianzhong Qi. A Lazy [Approach for Efficient Index Learning](https://arxiv.org/pdf/2102.08081.pdf). arXiv preprint arXiv:2102.08081. 
+[[source code]](https://github.com/Liuguanli/ModelReuse)
+2. Jianzhong Qi, Guanli Liu, Christian S. Jensen, and Lars Kulik. [Effectively Learning Spatial Indices](http://www.vldb.org/pvldb/vol13/p2341-qi.pdf). PVLDB, 13(11): 2341-2354, 2020.
+[[source code]](https://github.com/Liuguanli/RSMI)
+2. Yu Gu, Guanli Liu, Jianzhong Qi, Hongfei Xu, Ge Yu, and Rui Zhang. [The Moving K Diversified Nearest Neighbor Query](https://www.researchgate.net/publication/305485404_The_Moving_K_Diversified_Nearest_Neighbor_Query). TKDE, 28(10): 2778-2792, 2016.
+
+<!-- 
 
 ```markdown
 Syntax highlighted code block
@@ -36,12 +53,11 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
 
-### Jekyll Themes
+### Work Experience
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Liuguanli/Liuguanli.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Others
+
