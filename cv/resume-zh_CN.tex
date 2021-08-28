@@ -1,0 +1,86 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{hyperref}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{刘冠利}
+
+\basicInfo{
+  \email{liuguanli22@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 15002443348} \textperiodcentered\ 
+  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/}}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{墨尔本大学}, 澳大利亚 墨尔本}{2019 -- 至今}
+\textit{博士在读}\ 计算机, 预计 2022 年 12 月毕业
+\datedsubsection{\textbf{东北大学}, 辽宁 沈阳}{2013 -- 2015}
+\textit{硕士研究生}\ 计算机技术
+\datedsubsection{\textbf{东北大学}, 辽宁 沈阳}{2009 -- 2013}
+\textit{学士}\ 软件工程
+
+\section{\faUsers\ 发表论文}
+\begin{itemize}
+ \item Guanli Liu, Lars Kulik, Xingjun Ma, Jianzhong Qi. A Lazy Approach for Efficient Index Learning. arXiv preprint arXiv:2102.08081. \\ 
+ 主要内容：通过合成数据集训练机器学习模型并通过相似性比较应用于真实的数据集。
+ 源代码：{https://github.com/Liuguanli/ModelReuse}
+  \item Jianzhong Qi (博导), Guanli Liu, Christian S. Jensen, and Lars Kulik. Effectively Learning Spatial Indices. PVLDB, 13(11): 2341-2354, 2020. \\
+  主要内容：设计了一个高效的基于机器学习的空间数据索引结构，并提供了多种查询方法。
+   源代码：{https://github.com/Liuguanli/RSMI}
+  \item Yu Gu (硕导), Guanli Liu, Jianzhong Qi, Hongfei Xu, Ge Yu, and Rui Zhang. The Moving K Diversified Nearest Neighbor Query. TKDE, 28(10): 2778-2792, 2016.
+\end{itemize}
+
+\section{\faUsers\ 工作经历}
+\datedsubsection{\textbf{墨尔本大学} 墨尔本}{2019年8月 -- 至今}
+\role{助教}{Comp90018 (Mobile Computing)}
+\begin{itemize}
+  \item Android 开发
+  %\item 项目指导
+\end{itemize}
+\role{助教}{Comp90041 (Programming and Software Development)}
+\begin{itemize}
+  \item Java 开发
+%  \item 期末考题
+\end{itemize}
+
+\datedsubsection{\textbf{百度} 北京}{2015年6月 -- 2017年9月}
+\role{高级研发工程师}{Android 开发}
+\begin{itemize}
+  \item 消息相关业务：消息撤回，消息删除，名片消息，红包消息
+ \item 业务相关：图片二维码识别，文件传输助手，登陆成功的闪屏页面，全局搜素中的消息搜索
+ \item 语音小助手：通过语音识别与合成SDK，实现语音发消息，定会议室等
+ \item 性能优化：数据库优化
+\end{itemize}
+
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言：Java > Python == C++
+  \item 开发：Android, Java Web, TensorFlow, PyTorch, SQL
+ \item 其他：LaTex
+\end{itemize}
+
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+%\item 个人主页: https://liuguanli.github.io/
+  \item GitHub: https://github.com/Liuguanli
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
