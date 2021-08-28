@@ -1,4 +1,4 @@
-/cv/*
-!/cv/*.pdf
-!/cv/*.tex
-!/cv/*.cls
+# /cv/*
+# !/cv/*.pdf
+# !/cv/*.tex
+# !/cv/*.cls
