@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.8)  22 SEP 2021 09:56
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.8)  22 SEP 2021 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**resume.tex
-(./resume.tex
+**resume_Google.tex
+(./resume_Google.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (./resume.cls
 Document Class: resume 2015/05/25 An elegant Résumé class
@@ -370,24 +370,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 (/usr/local/texlive/2020/texmf-dist/tex/generic/nth/nth.sty
 Package: nth 2002/02/27
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: xetex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(./resume.aux)
-\openout1 = `resume.aux'.
+No file resume_Google.aux.
+\openout1 = `resume_Google.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -400,7 +384,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
 .
- (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -496,10 +480,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
- (./resume.out) (./resume.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `resume_Google.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -536,16 +522,16 @@ LaTeX Info: Redefining \nameref on input line 7.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 16.
+(Font)              scaled to size 10.20007pt on input line 15.
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/sc' will be
-(Font)              scaled to size 12.24008pt on input line 19.
+(Font)              scaled to size 12.24008pt on input line 22.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 19.
+(hyperref)                removing `\FA' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 19.
+(hyperref)                removing `\char' on input line 22.
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
@@ -553,70 +539,77 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 25.
+(hyperref)                removing `\FA' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 25.
+(hyperref)                removing `\char' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 38.
+(hyperref)                removing `\FA' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 38.
+(hyperref)                removing `\char' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 73.
+(hyperref)                removing `\FA' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 82.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 82.
+(hyperref)                removing `\char' on input line 81.
 
 [1
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 100.
+(hyperref)                removing `\FA' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 100.
+(hyperref)                removing `\char' on input line 91.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 103.
+(Font)              <10.95> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 103.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 103.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+(Font)              <6> on input line 94.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 97.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 97.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
- (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 6890DE46379429E4D0ACF703864E8B18;926.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+ (./resume_Google.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+
+
+Package rerunfilecheck Warning: File `resume_Google.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume_Google.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  640AC3B9666DC497DD186F31EF5E1B55;893.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 14135 strings out of 479418
- 262258 string characters out of 5884586
- 581583 words of memory out of 5000000
- 31466 multiletter control sequences out of 15000+600000
- 535661 words of font info for 62 fonts, out of 8000000 for 9000
+ 13687 strings out of 479418
+ 257093 string characters out of 5884586
+ 569208 words of memory out of 5000000
+ 31030 multiletter control sequences out of 15000+600000
+ 535653 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,5n,77p,456b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,4n,77p,289b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (2 pages).
+Output written on resume_Google.pdf (2 pages).
