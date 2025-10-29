@@ -1,1 +1,22 @@
 theme: jekyll-theme-tactile
+title: Guanli Liu
+description: Postdoctoral Research Fellow — AI for Databases
+url: https://liuguanli.github.io
+
+# Use README.md as the site homepage and infer titles from headings
+plugins:
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Ensure pages without front matter still get a layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Auto-set page titles from the first markdown heading
+titles_from_headings:
+  enabled: true
+  strip_title: true
