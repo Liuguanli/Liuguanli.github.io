@@ -62,26 +62,6 @@ Queries*. ADC 2025
 
 ---
 
-### 🎓 Teaching
-
-- Tutor, COMP90041 Programming and Software Development – 2020 & 2021 S1  
-- Tutor, COMP90018 Mobile Computing – 2019 S2  
-
----
-
-### 🎓 Supervised Students
-
-**Kaan Gocmen** (Master’s Student, University of Melbourne)
-Topic: Advancing Spatial Keyword Queries
-Publication: To appear in Australasian Database Conference 2025
-
-**Ruiyi Hao** (Master’s Student, University of Melbourne)
-Topic: LLM for Spatial Queries
-Publication: To appear in Australasian Database Conference 2025
-
-
----
-
 ### 🛠 Skills & Expertise
 
 - **Programming & Systems**  
@@ -105,3 +85,22 @@ Publication: To appear in Australasian Database Conference 2025
 
 - **Research Focus**  
   AI4DB · Spatial indexing · Learned query optimization · Drift-aware benchmarking · Hybrid (vector + relational) search
+
+---
+
+### 🎓 Supervised Students
+
+**Kaan Gocmen** (Master’s Student, University of Melbourne)
+Topic: Advancing Spatial Keyword Queries
+Publication: To appear in Australasian Database Conference 2025
+
+**Ruiyi Hao** (Master’s Student, University of Melbourne)
+Topic: LLM for Spatial Queries
+Publication: To appear in Australasian Database Conference 2025
+
+---
+
+### 🎓 Teaching
+
+- Tutor, COMP90041 Programming and Software Development – 2020 & 2021 S1  
+- Tutor, COMP90018 Mobile Computing – 2019 S2  
