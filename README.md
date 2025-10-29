@@ -1,9 +1,9 @@
 ## Guanli Liu
 
 <div align="left">
-<img src="./image/head.png" style="width: 180px; height: 192px; float: right; margin: 10px">
+<img src="./image/head.png" style="width: 120px; height: 128px; float: right; margin: 10px">
 <p>
-I am a Postdoctoral Research Fellow at the University of Melbourne, working on AI for Databases, including spatial indexing, reinforcement learning-based query optimization, and LLM applications. My PhD research focused on learned spatial indexing, and has been published at top venues such as VLDB, ICDE, and TKDE. I am supervised by Dr. Jianzhong Qi and Prof. Lars Kulik.
+I am a Postdoctoral Research Fellow at the University of Melbourne, working on AI for Databases, including spatial indexing, reinforcement learning-based query optimization, and LLM applications. My research also explores the use of space-filling curves (SFCs) for efficient spatial data organization and cost modeling.
 </p>
 
 <p>
@@ -18,7 +18,8 @@ Previously, I worked as a Senior Software Engineer at Baidu, and obtained my M.S
 
 ### 📬 Contact
 
-- Email: **[first name] [dot] liu1 [at] unimelb [dot] edu [dot] au**  
+<!-- - Email: **[first name] [dot] liu1 [at] unimelb [dot] edu [dot] au**   -->
+- Email: **[last name][first name]22[at]gmail[dot]com**
 - GitHub: [Liuguanli](https://github.com/Liuguanli)  
 - LinkedIn: [Guanli Liu](https://www.linkedin.com/in/guanli-liu-11353058/)
 
@@ -26,17 +27,27 @@ Previously, I worked as a Senior Software Engineer at Baidu, and obtained my M.S
 
 ### 📄 Publications
 
-1. **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi.  
+- **Guanli Liu**, Renata Borovica-Gajic, Hai Lan, Zhifeng Bao.  
+   *Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts*. ICDE 2026 (to appear)
+- Lankadinee Rathuwadu, **Guanli Liu**, Christopher Leckie, Renata Borovica-Gajic.     
+   *CoLSE: A Lightweight and Robust Hybrid Learned Model for Single-Table Cardinality Estimation using Joint CDF*. ICDE 2026 (to appear)
+- Kaan Gocmen, **Guanli Liu**, Renata Borovica-Gajic.   
+*Advancing Spatial Keyword Queries: From Filters
+to Unified Vector Embeddings*. ADC 2025
+- Ruiyi Hao, **Guanli Liu**, Renata Borovica-Gajic.   
+*LLM-Enhanced Processing of Complex Spatial
+Queries*. ADC 2025
+- **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi.  
    *Efficient Cost Modeling of Space-filling Curves*. PVLDB 2024.  
-2. **Guanli Liu**.  
+- **Guanli Liu**.  
    *Learning Spatial Indices Efficiently*. PhD Thesis, University of Melbourne, 2023.  
-3. **Guanli Liu**, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein.  
+- **Guanli Liu**, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein.  
    *Efficient Index Learning via Model Reuse and Fine-tuning*. ICDEW 2023.  
-4. **Guanli Liu**, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik.  
+- **Guanli Liu**, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik.  
    *Efficiently Learning Spatial Indices*. ICDE 2023.  
-5. Jianzhong Qi, **Guanli Liu**, Christian S. Jensen, Lars Kulik.  
+- Jianzhong Qi, **Guanli Liu**, Christian S. Jensen, Lars Kulik.  
    *Effectively Learning Spatial Indices*. PVLDB 2020.  
-6. Yu Gu, **Guanli Liu**, Jianzhong Qi, Hongfei Xu, Ge Yu, Rui Zhang.  
+- Yu Gu, **Guanli Liu**, Jianzhong Qi, Hongfei Xu, Ge Yu, Rui Zhang.  
    *The Moving K Diversified Nearest Neighbor Query*. IEEE TKDE 2016.
 
 ---
@@ -45,7 +56,7 @@ Previously, I worked as a Senior Software Engineer at Baidu, and obtained my M.S
 
 1. **Postdoctoral Research Fellow**, University of Melbourne, 2024–Present  
 2. **Data Scientist**, nftDb, 2023–2024  
-3. **Research Assistant**, University of Melbourne, 2022–2023  
+<!-- 3. **Research Assistant**, University of Melbourne, 2022–2023   -->
 4. **Senior Software Engineer**, Baidu, 2015–2017  
 5. **Software Engineer**, Neusoft Inc., 2012  
 
@@ -58,10 +69,39 @@ Previously, I worked as a Senior Software Engineer at Baidu, and obtained my M.S
 
 ---
 
-### 🛠 Skills
+### 🎓 Supervised Students
 
-- **Languages**: Python, Java, C++  
-- **Databases**: PostgreSQL, MySQL, MongoDB, BigQuery  
-- **Machine Learning**: TensorFlow, PyTorch, Scikit-learn  
-- **Cloud**: Google Cloud Platform  
-- **Research Areas**: Spatial indexing, query optimization, database systems
+**Kaan Gocmen** (Master’s Student, University of Melbourne)
+Topic: Advancing Spatial Keyword Queries
+Publication: To appear in Australasian Database Conference 2025
+
+**Ruiyi Hao** (Master’s Student, University of Melbourne)
+Topic: LLM for Spatial Queries
+Publication: To appear in Australasian Database Conference 2025
+
+
+---
+
+### 🛠 Skills & Expertise
+
+- **Programming & Systems**  
+  Python (data analysis, ML pipelines), C++ (indexing & storage engines), Java (backend systems)  
+
+- **Databases & Query Engines**  
+  PostgreSQL (extension development, optimizer internals), MySQL, MongoDB, BigQuery  
+  *Experience building learned, RL-enhanced, and LLM-assisted query optimization systems.*
+
+- **Machine Learning & AI**  
+  PyTorch, TensorFlow, Scikit-learn  
+  *Applied to reinforcement learning for database tuning, spatial embeddings, and hybrid retrieval tasks.*
+
+- **Large Language Models (LLMs)**  
+  OpenAI GPT-4/5, Llama, Mistral  
+  *Experience in LLM tuning for database applications.*
+
+- **Cloud & Infrastructure**  
+  Docker, Kubernetes, Google Cloud Platform  
+  *Built distributed benchmarking pipelines and model-serving environments for database and ML workloads.*
+
+- **Research Focus**  
+  AI4DB · Spatial indexing · Learned query optimization · Drift-aware benchmarking · Hybrid (vector + relational) search
