@@ -1,22 +1,58 @@
-theme: jekyll-theme-tactile
-title: Guanli Liu
-description: Postdoctoral Research Fellow — AI for Databases
+locale: "en-US"
+site_theme: "default"
+title: "Guanli Liu"
+name: "Guanli Liu"
+description: "Postdoctoral Research Fellow — AI for Databases"
 url: https://liuguanli.github.io
+baseurl: ""
+repository: Liuguanli/Liuguanli.github.io
+remote_theme: academicpages/academicpages.github.io
 
-# Use README.md as the site homepage and infer titles from headings
+author:
+  avatar: "/image/head.png"
+  name: "Guanli Liu"
+  bio: "AI4DB · Spatial indexing · Learned query optimization"
+  location: "Melbourne, Australia"
+  employer: "University of Melbourne"
+  email: "liu.guanli22@gmail.com"
+  github: "Liuguanli"
+  linkedin: "guanli-liu-11353058"
+
+permalink: /:categories/:title/
+markdown: kramdown
+future: true
+paginate: 5
+paginate_path: /page:num/
+
 plugins:
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
 
-# Ensure pages without front matter still get a layout
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
-      layout: default
-
-# Auto-set page titles from the first markdown heading
-titles_from_headings:
-  enabled: true
-  strip_title: true
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
