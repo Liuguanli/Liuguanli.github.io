@@ -24,7 +24,7 @@ Previously, I was a Senior Software Engineer at Baidu, and received my M.S. and 
 - Kaan Gocmen, **Guanli Liu**, Renata Borovica-Gajic. *Advancing Spatial Keyword Queries: From Filters to Unified Vector Embeddings*. ADC 2025.
 - Ruiyi Hao, **Guanli Liu**, Renata Borovica-Gajic. *LLM-Enhanced Processing of Complex Spatial Queries*. ADC 2025.
 - **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi. *Efficient Cost Modeling of Space-filling Curves*. PVLDB 2024.
-- **Guanli Liu**. *Learning Spatial Indices Efficiently*. PhD Thesis, University of Melbourne, 2023.
+<!-- - **Guanli Liu**. *Learning Spatial Indices Efficiently*. PhD Thesis, University of Melbourne, 2023. -->
 - **Guanli Liu**, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein. *Efficient Index Learning via Model Reuse and Fine-tuning*. ICDEW 2023.
 - **Guanli Liu**, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik. *Efficiently Learning Spatial Indices*. ICDE 2023.
 - Jianzhong Qi, **Guanli Liu**, Christian S. Jensen, Lars Kulik. *Effectively Learning Spatial Indices*. PVLDB 2020.
