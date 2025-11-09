@@ -9,7 +9,7 @@ repository: Liuguanli/Liuguanli.github.io
 remote_theme: academicpages/academicpages.github.io
 
 author:
-  avatar: "/image/head.png"
+  avatar: "head.png"
   name: "Guanli Liu"
   bio: "AI4DB · Spatial indexing · Learned query optimization"
   location: "Melbourne, Australia"

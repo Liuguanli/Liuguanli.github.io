@@ -45,7 +45,7 @@ Previously, I was a Senior Software Engineer at Baidu, and received my M.S. and 
 - **Large Language Models**: OpenAI GPT-4/5, Llama, Mistral
 - **Cloud & Infrastructure**: Docker, Kubernetes, Google Cloud Platform
 
-### 🎓 Supervised Students
+<!-- ### 🎓 Supervised Students
 
 - **Kaan Gocmen** (Master’s, University of Melbourne) — Advancing Spatial Keyword Queries — Publication: ADC 2025.
 - **Ruiyi Hao** (Master’s, University of Melbourne) — LLM for Spatial Queries — Publication: ADC 2025.
@@ -53,4 +53,4 @@ Previously, I was a Senior Software Engineer at Baidu, and received my M.S. and 
 ### 🎓 Teaching
 
 - Tutor, COMP90041 Programming and Software Development – 2020 & 2021 S1  
-- Tutor, COMP90018 Mobile Computing – 2019 S2
+- Tutor, COMP90018 Mobile Computing – 2019 S2 -->
