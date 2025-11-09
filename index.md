@@ -9,7 +9,7 @@ I am a Postdoctoral Research Fellow at the University of Melbourne, working on A
 
 Previously, I was a Senior Software Engineer at Baidu, and received my M.S. and B.Eng. degrees from Northeastern University in China.
 
-[CV (English)](/cv/resume.pdf)
+[CV](/cv/resume.pdf)
 
 ### 📬 Contact
 
