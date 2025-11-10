@@ -1,0 +1,172 @@
+\documentclass{resume}
+% \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\newcommand{\SoftwareEngineer}{Software Engineer}
+\newcommand{\DataScientist}{Data Scientist}
+\newcommand{\ResearchFellow}{Postdoctoral Research Fellow}
+
+% \usepackage{fontawesome5}
+
+
+\usepackage{xcolor}
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Guanli Liu}
+
+\basicInfo{
+  \email{guanlil1@unimelb.edu.au} \textperiodcentered\ 
+  % \email{liuguanli22@gmail.com} \textperiodcentered\ 
+  % \phone{(+61) 450075953} \textperiodcentered\ 
+  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/} \textperiodcentered\ 
+  \github[https://github.com/Liuguanli]{https://github.com/Liuguanli}
+  }
+
+% -------------------------
+% Profile
+% -------------------------
+\section{\faUser\ \textbf{Profile}}
+I am a postdoctoral researcher specializing in learned spatial indexing and machine learning-driven query optimization. My PhD research introduced effective and efficient learned spatial indexing methods, published in top-tier conferences (VLDB, ICDE, TKDE).
+Since completing my PhD in December 2023, I have focused on benchmarking reinforcement learning-based indexing against traditional spatial indexes and exploring LLM applications in spatial indexing.
+Before academia, I was a Software Engineer, developing a strong foundation in algorithm design, database systems, and large-scale data processing.
+
+% -------------------------
+% Education
+% -------------------------
+\section{\faGraduationCap\ \textbf{Education}}
+\datedsubsection{\textbf{PhD} in Computer Science, \textit{The University of Melbourne}, Australia}{2019 -- 2023}
+\datedsubsection{\textbf{M.S.} in Computer Technology, \textit{Northeastern University}, China (GPA: 3.5 / Top 10\%)}{2013 --  2015}
+\datedsubsection{\textbf{B.Eng.} in Software Engineering, \textit{Northeastern University}, China (GPA: 3.4 / Top 20\%)}{2009 --  2013}
+
+% -------------------------
+% Research & Work Experience
+% -------------------------
+\section{\faUsers\ \textbf{Research and Work Experience}}
+
+\datedsubsection{\textbf{Postdoctoral Research Fellow}, \textbf{The University of Melbourne}, Australia}{Feb. 2024 -- Present}
+Conducting research under Prof. Renata Borovica-Gajic’s DECRA project, with a focus on \textbf{AI for Databases}. The work spans spatial indexing, data layout optimization, and cardinality estimation. Key contributions include the design of efficient data layouts, the development of PostgreSQL extensions, and the implementation of benchmarking frameworks. Ongoing efforts have resulted in multiple research papers, with two currently under submission to top-tier venues.
+
+\datedsubsection{\textbf{Data Scientist}, \textbf{\href{https://nftdb.ai/}{nftDb \faExternalLink\ }}, Australia}{Feb. 2023 -- Feb. 2024}
+Processed and analyzed NFT transaction data (\textbf{Python}, \textbf{BigQuery}, \textbf{Dbt}), managed token wallets, and developed a ranking system using PageRank. Built key components of the foundational data platform (\href{https://databeast.xyz/}{\textbf{databeast}}), identifying trading patterns and market anomalies.
+
+\datedsubsection{\textbf{Research Assistant}, \textbf{The University of Melbourne}, Australia}{Aug. 2022 -- Aug. 2023}
+\begin{itemize}
+  \item \textit{Project One:} Developed an AI-assisted system for reducing reading interruptions using \textbf{GPT API} and \textbf{Google Cloud}.
+  \item \textit{Project Two:} Designed a \textbf{C language coding style checker} to detect common errors using Python.
+\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer}, \textbf{Baidu}, China}{Jul. 2015 -- Aug. 2017}
+Developed features for Baidu’s Instant Messaging platform (\href{https://infoflow.baidu.com/}{\textbf{infoflow}}), focusing on improving communication efficiency and user experience. Designed new message protocols and voice-assistant modules to enhance real-time interactions. Contributed to backend optimizations, improving data storage and retrieval efficiency. Additionally, worked on refining the UI to provide a more seamless and responsive user experience.
+
+% -------------------------
+% Publications
+% -------------------------
+\section{\faFile\ \textbf{Publications}}
+
+\begin{itemize}
+
+\item \textbf{Namrata Srivastava, Jennifer Healey, Rajiv Jain, Guanli Liu, Ying Ma, Borano Llana, Dragan Gasevic, Tilman Dingler, Shaun Wallace}.
+``Priming at Scale: An Evaluation of Using AI to Generate Primes for Mobile Readers". CHI Extended Abstracts 2025
+
+
+  \item \textbf{Guanli Liu, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi}.  
+  ``Efficient Cost Modeling of Space-filling Curves." \textit{Proc. VLDB Endow.}, 2024.  
+  Introduces an optimized cost model for space-filling curves, improving query efficiency in spatial databases.
+
+  \item \textbf{Guanli Liu}.  
+  ``Learning Spatial Indices Efficiently." \textit{University of Melbourne}, 2023.  
+  My PhD thesis consolidates research on learned spatial indexes, proposing novel training and adaptation techniques.
+
+  \item \textbf{Guanli Liu, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein}.  
+  ``Efficient Index Learning via Model Reuse and Fine-tuning." \textit{ICDEW}, 2023.  
+  Explores transfer learning for learned indexes, reducing training costs while maintaining high accuracy.
+
+  \item \textbf{Guanli Liu, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik}.  
+  ``Efficiently Learning Spatial Indices." \textit{ICDE}, 2023.  
+  Proposes an efficient learned spatial index framework that minimizes storage costs while ensuring query efficiency.
+
+
+  \item \textbf{Jianzhong Qi, Guanli Liu, Christian S. Jensen, Lars Kulik}.  
+  ``Effectively Learning Spatial Indices." \textit{Proc. VLDB Endow.}, 2020.  
+  Foundational work applying machine learning to spatial indexing, demonstrating improved query performance over R-trees.
+
+  \item \textbf{Yu Gu, Guanli Liu, Jianzhong Qi, Hongfei Xu, Ge Yu, Rui Zhang}.  
+  ``The Moving K Diversified Nearest Neighbor Query." \textit{IEEE TKDE}, 2016.  
+  Proposes a new query type for retrieving diverse and spatially distributed nearest neighbors in moving object databases.
+\end{itemize}
+
+
+% % -------------------------
+% % Seminar/Conference Presentations
+% % -------------------------
+% \section{\faMicrophone\ \textbf{Seminar and Conference Presentations}}
+% \begin{itemize}
+%   \item TODO (List conferences where you have presented, specify if invited talk, oral, or poster)
+% \end{itemize}
+
+% % -------------------------
+% % Teaching and Supervision
+% % -------------------------
+% \section{\faUniversity\ \textbf{Teaching and Supervision}}
+% \begin{itemize}
+%   \item TODO (List postgraduate/undergraduate teaching roles, tutor/demo roles, co-supervision experience)
+% \end{itemize}
+
+\section{\faGraduationCap\ \textbf{Teaching}}
+\begin{itemize}
+  \item \textbf{INFO20003 – Database Systems (The University of Melbourne):} 
+  Prepared teaching materials for the course in advance of the 2025 Semester 2 offering. Will participate in teaching in the upcoming semester.
+
+  \item \textbf{COMP90018 – Android Application Development (The University of Melbourne):} 
+  Tutor from Aug. 2019 to 2023, responsible for tutorials, student support, and assessment marking.
+
+  \item \textbf{COMP90041 – Programming and Software Development (The University of Melbourne):} 
+  Tutor from Aug. 2019 to 2023, responsible for tutorials and assessment marking
+\end{itemize}
+
+% -------------------------
+% Leadership and Service
+% -------------------------
+\section{\faUsers\ \textbf{Research Service}}
+\begin{itemize}
+  \item \textbf{Conference Reviewer:} CIKM 2024, VLDB 2025 (External Reviewer), VLDB 2026 (Shadow Reviewer), KDD 2025 (Excellent Reviewer)
+  \item \textbf{Journal Reviewer:} Transactions on Spatial Algorithms and Systems (TSAS) from 2022
+\end{itemize}
+
+\section{\faBriefcase\ \textbf{Supervision}}
+\begin{itemize}
+  \item \textbf{Master’s Students:} Co-supervising one Master’s student on research projects related to spatial indexing and database systems
+\end{itemize}
+
+% % -------------------------
+% % Administrative Responsibilities
+% % -------------------------
+% \section{\faTasks\ \textbf{Administrative Responsibilities}}
+% \begin{itemize}
+%   \item TODO (List any faculty, department, lab, or institutional responsibilities)
+% \end{itemize}
+
+% % -------------------------
+% % Community Engagement
+% % -------------------------
+% \section{\faUsers\ \textbf{Community Engagement}}
+% \begin{itemize}
+%   \item TODO (List any public talks, outreach, science communication, open-source contributions)
+% \end{itemize}
+
+% -------------------------
+% Skills
+% -------------------------
+\section{\faCogs\ \textbf{Engineering Skills}}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{Programming:} Proficiency in Python and Java, with supplementary knowledge of C++
+  \item \textbf{Data Management:} Experience with MySQL, MongoDB, PostgreSQL, and BigQuery
+  \item \textbf{Cloud Computing:} Experienced in deploying applications and managing data on Google Cloud Platform
+  \item \textbf{Machine Learning:} Hands-on experience with TensorFlow, PyTorch, TorchLib, and Scikit-learn
+  % \item \textbf{Data Visualization:} Proficient in Matplotlib, Seaborn, and Tableau
+  \item \textbf{Algorithmic Knowledge:} Solid understanding of fundamental data structures and algorithms
+\end{itemize}
+
+
+\end{document}

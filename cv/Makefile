@@ -1,25 +1,24 @@
-SRC = $(wildcard *.tex)
+LATEXMK ?= latexmk
+LATEXMK_FLAGS ?= -xelatex -interaction=nonstopmode -file-line-error
+DEFAULT_TEX ?= CV-DS.tex
 
-PDFS = $(SRC:.tex=.pdf)
+TEX_SRCS := $(wildcard *.tex)
+PDFS := $(TEX_SRCS:.tex=.pdf)
 
-all:	clean pdf
+.PHONY: all clean distclean watch
 
-en:	clean xelatex resume.tex
+all: $(PDFS)
 
-zh_CN:	clean xelatex resume-zh_CN.tex
+%.pdf: %.tex
+	$(LATEXMK) $(LATEXMK_FLAGS) $<
 
-pdf:	clean $(PDFS)
-
-%.pdf:  %.tex
-	xelatex $<
-
-ifeq ($(OS),Windows_NT)
-  # on Windows
-  RM = cmd //C del
-else
-  # on Unix/Linux
-  RM = rm -f
-endif
+watch:
+	$(LATEXMK) $(LATEXMK_FLAGS) -pvc $(DEFAULT_TEX)
 
 clean:
-	$(RM) *.log *.aux *.bbl *.blg *.synctex.gz *.out *.toc *.lof *.idx *.ilg *.ind *.pdf
+	@for file in $(TEX_SRCS); do \
+		$(LATEXMK) -c $$file >/dev/null 2>&1; \
+	done
+
+distclean: clean
+	rm -f $(PDFS)

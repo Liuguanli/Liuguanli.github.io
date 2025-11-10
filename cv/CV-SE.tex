@@ -1,0 +1,102 @@
+\documentclass{resume}
+% \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{xcolor}
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Guanli Liu}
+
+\basicInfo{
+  \email{liuguanli22@gmail.com} \textperiodcentered\ 
+  \phone{(+61) 450075953} \textperiodcentered\ 
+  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/} \textperiodcentered\ 
+  \github[https://github.com/Liuguanli]{https://github.com/Liuguanli}
+  }
+
+\section{\faUser\ \textbf{Profile}}
+Builder of large-scale data systems with 8+ years across postdoc research and industry (Baidu, startups). I design cloud-native services, optimize query engines, and ship GenAI-powered features end-to-end. Looking for a \textbf{Software Engineer} role where I can own backend architecture, performance, and reliability for data-intensive products.
+
+\section{\faCogs\ \textbf{Technical Skills}}
+\begin{itemize}[parsep=0.35ex]
+  \item \textbf{Languages:} Python, Java, C++, Go (reading), Rust (basic); production-quality code reviews \& testing
+  \item \textbf{Distributed Systems:} gRPC/REST services, event-driven pipelines, message protocols, async job orchestration
+  \item \textbf{Databases \& Storage:} PostgreSQL internals, MySQL, BigQuery, MongoDB, RocksDB, learned/auto-tuned indexes
+  \item \textbf{Cloud \& DevOps:} GCP (GKE, Cloud Run, BigQuery), Docker/K8s, Terraform basics, GitHub Actions, monitoring/alerting
+  \item \textbf{GenAI Platforming:} Integrated GPT/Claude APIs, prompt/tooling infra, RAG pipelines, content safety guardrails
+  \item \textbf{Quality \& Process:} Design docs, OKRs, Agile rituals, on-call playbooks, security/privacy reviews
+\end{itemize}
+
+
+
+
+% \section{\faGraduationCap\ \textbf{Education}}
+% \datedsubsection{\textbf{The University of Melbourne}, Melbourne, Australia}{Jun. 2019 -- June 2023} 
+% \textit{PhD Candidate} in Computing and Information System (GPA: H1)
+% \datedsubsection{\textbf{Northeastern University}, Shenyang, China}{Aug. 2013 -- Jun. 2015}
+% \textit{M.S.} in Computer Technology (GPA: 3.5 / Top 10\%)
+% \datedsubsection{\textbf{Northeastern University}, Shenyang, China}{Aug. 2009 -- Jun. 2013}
+% \textit{B.Eng.} in Software Engineering (GPA: 3.4 / Top 20\%)
+
+\section{\faGraduationCap\ \textbf{Education}}
+\datedsubsection{\textbf{PhD} in Computer Science, \textit{The University of Melbourne}, Australia (GPA: H1)}{2019 -- June 2023}
+\datedsubsection{\textbf{M.S.} in Computer Technology, \textit{Northeastern University}, China (GPA: 3.5 / Top 10\%)}{2013 --  2015}
+\datedsubsection{\textbf{B.Eng.} in Software Engineering, \textit{Northeastern University}, China (GPA: 3.4 / Top 20\%)}{2009 --  2013}
+
+\section{\faUsers\ \textbf{Experience}}
+
+\datedsubsection{\textbf{Senior Software/Platform Engineer (Data)}, \textbf{\href{https://nftdb.ai/}{nftDb \faExternalLink\ }}, Remote/Australia}{2023 -- 2024}
+\begin{itemize}[parsep=0.35ex]
+  \item Architected the NFT intelligence platform (\href{https://databeast.xyz/}{databeast}) end-to-end: ingestion services in \textbf{Python/Go}, BigQuery warehouse, feature store, and API layer serving $\sim$5M wallet events/day.
+  \item Built GenAI-assisted wallet notes by combining GPT-4 function-calling with internal graph features; reduced analyst triage time by 40\%.
+  \item Deployed ranking microservices (Kubernetes + Cloud Run) implementing PageRank-like scoring, caching, and gRPC interfaces consumed by the web app.
+\end{itemize}
+
+\datedsubsection{\textbf{Postdoctoral / Research Software Engineer}, \textbf{University of Melbourne}}{2019 -- Present}
+\begin{itemize}[parsep=0.35ex]
+  \item Led engineering for AI4DB projects that shipped RL-enhanced spatial indexes and LLM-assisted query tuning prototypes; codebases in \textbf{C++/Python}.
+  \item Delivered production-grade research tooling: reproducible benchmarking infra, CI on GitHub Actions, containerized services on GCP for student teams.
+  \item Built a GenAI reading aide (Node.js, GPT-4, Midjourney) with latency-tolerant queues and observability dashboards used in human-subject studies.
+\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer}, \textbf{Baidu}, China}{2015 -- 2017}
+\begin{itemize}[parsep=0.35ex]
+  \item Owned core messaging modules for the InfoFlow enterprise IM app (40K+ DAU). Designed backward-compatible message/voice protocols and SDKs.
+  \item Reduced message-store latency 20\% by refactoring SQLite schema, writing migration tooling, and instrumenting performance regressions.
+  \item Championed modular UI widgets + Builder-pattern libraries that cut feature rollout time by 30\% and improved accessibility compliance.
+\end{itemize}
+
+
+% \datedsubsection{\textbf{Software Engineer}, Baidu, China}{Jul. 2015 -- Aug. 2017}
+% \role{}{Android Development (\textbf{Java})}
+% Worked on Instant Messaging (IM) software development, which is an enterprise intelligent platform \href{https://infoflow.baidu.com/}{[\textbf{infoflow}]}. 
+% Key contributions are as follows:
+
+% \begin{itemize}
+%   \item Designed new message protocols, e.g., Recall message, Delete message, Red pocket Message, etc.
+%   \item Designed Voice Assistant module by voice recognition SDK to send message, order meeting room, etc.
+%   \item Optimised the database retrieval efficiency by about 20\% by optimising database table index.
+%   \item Optimised application centre UI with flexible configuration by new widgets.
+%   \item Improved all message module development efficiency by using design patterns, e.g., Builder.
+%   \item Analysed, fixed, and documented tough bugs.
+% \end{itemize}
+
+
+
+% \item Guanli Liu, Jianzhong Qi, Christian S. Jensen, Tianyi Li, Lars Kulik. Efficient Cost Modelling of Space-filling Curves. Submitted to SIGMOD 2024. \href{https://github.com/Liuguanli/LearnSFC}{[\textbf{source code}]} 
+
+% \section{\faFile\ \textbf{Publications}}
+% \begin{itemize}
+%  \item G. Liu et al. "Efficient Index Learning via Model Reuse and Fine-tuning." \textit{DBML@ICDE 2023}. 
+%  \item G. Liu et al. "Efficiently Learning Spatial Indices." \textit{ICDE 2023}.
+%  \item J. Qi, G. Liu, et al. "Effectively Learning Spatial Indices." \textit{VLDB}, 2020.
+%  \item Y. Gu, G. Liu, et al. "The Moving K Diversified Nearest Neighbor Query." \textit{TKDE}, 2016.
+% \end{itemize}
+\section{\faCode\ \textbf{Selected Projects \& Publications}}
+\begin{itemize}[parsep=0.35ex]
+  \item \textbf{Learned Spatial Index Toolkit (C++/Python).} Released RL-trained SFC indexes; benchmarked vs. traditional methods (ICDE'23, VLDB'24).
+  \item \textbf{Coding Style Linter (Python).} Engineered AST rules + GenAI autofixes for C submissions; adopted in grad-level teaching.
+  \item \textbf{ConnectorX contributions.} Optimized data-loading paths and added tracing hooks widely used in SFU DB lab projects.
+\end{itemize}
+
+\end{document}

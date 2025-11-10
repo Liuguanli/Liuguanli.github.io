@@ -1,0 +1,66 @@
+\documentclass{resume}
+\usepackage{xcolor}
+\begin{document}
+\pagenumbering{gobble}
+
+\name{Guanli Liu}
+
+\basicInfo{
+  \email{liu.guanli22@gmail.com} \textperiodcentered\
+  \phone{(+61) 450075953} \textperiodcentered\
+  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/} \textperiodcentered\
+  \github[https://github.com/Liuguanli]{https://github.com/Liuguanli}
+}
+
+\section{\faUser\ \textbf{Profile}}
+Machine Learning Engineer experienced in standing up end-to-end pipelines—from data contracts to serving APIs—and currently deepening expertise for top-tier teams in Australia/US. I pair strong systems fundamentals with applied research in learned indexes and GenAI.
+
+\section{\faCogs\ \textbf{ML Platform Toolkit}}
+\begin{itemize}[parsep=0.35ex]
+  \item \textbf{Languages \& Frameworks:} Python, C++, PyTorch, TensorFlow, JAX (learning), scikit-learn, Ray
+  \item \textbf{Pipelines:} Airflow, Kubeflow, Vertex AI, MLflow, Feast/feature stores, dbt, BigQuery
+  \item \textbf{Serving:} FastAPI/gRPC services, ONNX/TensorRT optimization, A/B testing harnesses, canary + shadow traffic
+  \item \textbf{GenAI:} GPT-4/Claude toolchains, embeddings, vector stores, guardrails, synthetic data generation with diffusion models
+  \item \textbf{MLOps:} CI/CD for models, data validation (Great Expectations), drift detection, governance and documentation
+\end{itemize}
+
+\section{\faUsers\ \textbf{Experience}}
+\datedsubsection{\textbf{ML Engineer}, \textbf{\href{https://nftdb.ai/}{nftDb \faExternalLink}}}{2023 -- 2024}
+\begin{itemize}[parsep=0.35ex]
+  \item Built ingestion + training pipelines for wallet-ranking models (Airflow + BigQuery + PyTorch); reduced retraining time from 6h to 2h.
+  \item Containerized inference endpoints with auto-scaling on GKE; added real-time feature caching and latency SLO alerting.
+  \item Created GenAI wallet-notes service (GPT-4 + internal embeddings) with feedback logging to continually improve prompts.
+\end{itemize}
+
+\datedsubsection{\textbf{Postdoctoral ML Engineer}, \textbf{University of Melbourne}}{2019 -- Present}
+\begin{itemize}[parsep=0.35ex]
+  \item Led engineering for RL-based spatial index models; implemented training loops, evaluation harnesses, and reproducible benchmarks.
+  \item Deployed RAG-enabled query tuner that explains plan regressions; integrated human reviewers and fine-tuning datasets.
+  \item Managed student contributors, code reviews, and infra budgets; automated testing via GitHub Actions.
+\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer}, \textbf{Baidu}}{2015 -- 2017}
+\begin{itemize}[parsep=0.35ex]
+  \item Implemented telemetry + feature flags enabling ML-driven personalization in the InfoFlow messaging platform.
+  \item Collaborated with research teams to integrate on-device models while maintaining Android performance constraints.
+\end{itemize}
+
+\section{\faGraduationCap\ \textbf{Education}}
+\datedsubsection{\textbf{PhD}, Computer Science (AI for Databases), University of Melbourne}{2019 -- 2023}
+\datedsubsection{\textbf{M.S.}, Computer Technology, Northeastern University}{2013 -- 2015}
+\datedsubsection{\textbf{B.Eng.}, Software Engineering, Northeastern University}{2009 -- 2013}
+
+\section{\faLightbulbO\ \textbf{Learning \& Readiness Plan}}
+\begin{itemize}[parsep=0.35ex]
+  \item Completing \textbf{DeepLearning.AI GenAI}, \textbf{MLOps Specialization}, and \textbf{CS231n refresh} to align with top-tier ML expectations.
+  \item Building a hands-on project roadmap: retrieval-augmented coding assistant, diffusion fine-tuning on geospatial data, and Rust microservices for low-latency inference.
+  \item Practicing system design + ML interviews weekly, emphasizing data contracts, safety, and responsible AI considerations.
+\end{itemize}
+
+\section{\faCode\ \textbf{Representative Work}}
+\begin{itemize}[parsep=0.35ex]
+  \item \textbf{Learned Index Toolkit (PyTorch/C++).} Released under MIT license; demonstrates RL + transfer learning for storage engines.
+  \item \textbf{Coding Linter with GenAI Fixes.} Combines AST analysis, GPT-4 suggestions, and semantic diffing to auto-remediate student code.
+\end{itemize}
+
+\end{document}

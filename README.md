@@ -104,3 +104,33 @@ Publication: To appear in Australasian Database Conference 2025
 
 - Tutor, COMP90041 Programming and Software Development – 2020 & 2021 S1  
 - Tutor, COMP90018 Mobile Computing – 2019 S2  
+
+---
+
+## Building the CV PDFs
+
+Both LaTeX folders ship with everything needed to compile directly with XeLaTeX (fonts, style files, and helper scripts). Install a TeX distribution with `xelatex`/`latexmk`, then run:
+
+### `cv/` résumé set
+
+```bash
+cd cv
+make pdf          # builds every *.tex into a PDF
+make en           # just resume.pdf (English)
+make zh_CN        # just resume-zh_CN.pdf
+```
+
+The Makefile automatically cleans intermediates before each build. Outputs stay inside `cv/`.
+
+### `CV_/` alternate templates
+
+```bash
+cd CV_
+make             # builds every *.tex into a PDF via latexmk
+make CV-DS.pdf   # build a single target (any filename works)
+make watch DEFAULT_TEX=CV-DS.tex   # live rebuilds while editing
+make clean       # drop aux files (keeps PDFs)
+make distclean   # remove PDFs too
+```
+
+The `DEFAULT_TEX` variable lets you pick which document `make watch` follows; omit it to use the default `CV-DS.tex`.

@@ -1,0 +1,59 @@
+\documentclass{resume}
+\usepackage{xcolor}
+\begin{document}
+\pagenumbering{gobble}
+
+\name{Guanli Liu}
+
+\basicInfo{
+  \email{liuguanli22@gmail.com} \textperiodcentered\
+  \phone{(+61) 450075953} \textperiodcentered\
+  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/} \textperiodcentered\
+  \github[https://github.com/Liuguanli]{https://github.com/Liuguanli}
+}
+
+\section{\faUser\ \textbf{Profile}}
+Applied Scientist with a PhD in AI4DB who turns research ideas into measurable product wins. I design learning systems for indexing, ranking, and GenAI workloads, partnering with PM/engineering to ship experiments that matter for users.
+
+\section{\faCogs\ \textbf{Core Strengths}}
+\begin{itemize}[parsep=0.35ex]
+  \item \textbf{Modeling:} RL for systems, gradient boosting, causal inference, embeddings/RAG, Bayesian experimentation
+  \item \textbf{Systems:} Python/C++ services, low-latency inference, Kubernetes/GCP, feature stores, observability
+  \item \textbf{GenAI:} GPT-4/Claude API integrations, retrieval tuning, eval harnesses, safety/feedback loops
+  \item \textbf{Collaboration:} PRD co-writing, XFN roadmaps, mentorship of MS/PhD students, publication-driven storytelling
+\end{itemize}
+
+\section{\faUsers\ \textbf{Experience}}
+\datedsubsection{\textbf{Postdoctoral Applied Scientist}, \textbf{University of Melbourne}}{2024 -- Present}
+\begin{itemize}[parsep=0.35ex]
+  \item Lead scientist for RL-enhanced spatial indexes; shipped auto-tuned cost models that cut analytical query latency 18\% on cloud DW benchmarks.
+  \item Built GenAI copilots that summarize optimizer plans and recommend hints; integrated human feedback to improve acceptance by 35\%.
+  \item Published in VLDB/ICDE while maintaining production-ready codebases and mentoring student engineers.
+\end{itemize}
+
+\datedsubsection{\textbf{Applied Scientist}, \textbf{\href{https://nftdb.ai/}{nftDb \faExternalLink}}}{2023 -- 2024}
+\begin{itemize}[parsep=0.35ex]
+  \item Designed ranking/risk models for NFT wallets using graph embeddings + gradient boosting; reduced false positives 25\% with calibrated thresholds.
+  \item Delivered GenAI collector briefings (GPT-4 + internal knowledge base) that enabled BD teams to prepare in minutes, adopted across GTM.
+  \item Partnered with engineers to productionize inference endpoints (FastAPI, Vertex AI), add drift monitoring, and iterate via A/B tests.
+\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer}, \textbf{Baidu}}{2015 -- 2017}
+\begin{itemize}[parsep=0.35ex]
+  \item Implemented experimentation hooks and telemetry in the InfoFlow IM platform, unlocking personalization science at scale.
+  \item Co-developed voice assistant modules blending NLP services with Android clients, balancing accuracy vs. latency budgets.
+\end{itemize}
+
+\section{\faGraduationCap\ \textbf{Education}}
+\datedsubsection{\textbf{PhD}, Computer Science, University of Melbourne}{2019 -- 2023}
+\datedsubsection{\textbf{M.S.}, Computer Technology, Northeastern University}{2013 -- 2015}
+\datedsubsection{\textbf{B.Eng.}, Software Engineering, Northeastern University}{2009 -- 2013}
+
+\section{\faCode\ \textbf{Select Publications \& Patents}}
+\begin{itemize}[parsep=0.35ex]
+  \item \textbf{VLDB 2024/2025}: Efficient cost modeling + adaptive layout selection for space-filling curves.
+  \item \textbf{ICDE 2023}: Learned spatial indexes with transfer learning; code adopted by multiple research groups.
+  \item Pending patent on GenAI-guided query plan explanation for human-in-the-loop databases.
+\end{itemize}
+
+\end{document}
