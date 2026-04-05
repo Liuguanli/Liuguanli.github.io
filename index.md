@@ -24,7 +24,9 @@ Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at 
 
 An interactive, workload-aware advisor for single-table lakehouse physical design at ingestion time. Given a dataset and target workload, it analyzes data characteristics, workload signals, and column correlations to recommend partitioning and intra-file layout choices before poor physical design decisions degrade query performance.
 
-The system is designed to make recommendations explainable rather than opaque: users can inspect recommendation evidence, compare candidate designs, and validate whether estimated rankings align with observed query behavior. [Code](https://github.com/Liuguanli/layout_advisor) | [Paper](/papers/layoutpilot-vldb-demo-2026.pdf)
+The system is designed to make recommendations explainable rather than opaque: users can inspect recommendation evidence, compare candidate designs, and validate whether estimated rankings align with observed query behavior.
+
+**Links:** [Code](https://github.com/Liuguanli/layout_advisor) | [Paper](/papers/layoutpilot-vldb-demo-2026.pdf)
 
 <div style="clear: both;"></div>
 
@@ -34,7 +36,9 @@ The system is designed to make recommendations explainable rather than opaque: u
 
 A drift-aware benchmarking framework built around a taxonomy of data drift and workload drift, plus a declarative specification layer, `DriftSpec`, for making drift scenarios executable and reproducible. It supports controlled generation of evolving data and workloads so that database components can be evaluated beyond static, one-off benchmark runs.
 
-The goal is to shift benchmarking toward continuous evaluation under change, making it easier to study robustness, stability, and adaptation in systems such as cardinality estimators, indexing methods, and query optimizers. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
+The goal is to shift benchmarking toward continuous evaluation under change, making it easier to study robustness, stability, and adaptation in systems such as cardinality estimators, indexing methods, and query optimizers.
+
+**Links:** [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
 
 <div style="clear: both;"></div>
 
