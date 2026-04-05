@@ -9,8 +9,6 @@ I am a software engineer and postdoctoral researcher at the University of Melbou
 
 Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at Baidu. Across research and industry, I have built end-to-end systems involving backend services, data pipelines, benchmarking frameworks, query optimization components, and retrieval workflows. I am based in Melbourne, Australia, and open to remote and relocation opportunities.
 
-[CV](/cv/CV.pdf)
-
 ### What I Work On
 
 - **Data layout and physical design**: layout advisory systems, SQL workload parsing, and efficient cost models for data lake style datasets.
@@ -20,28 +18,27 @@ Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at 
 
 ### Selected Projects
 
-#### Layout Advisor
+#### LayoutPilot / Layout Advisory
 
 <img src="/images/projects/layout-advisor.svg" alt="Layout Advisor overview" width="100%">
 
-Advisory system for dataset ingestion, workload parsing, and layout recommendation for data lake workloads. [Code](https://github.com/Liuguanli/layout_advisor)
+An interactive, workload-aware advisor for single-table lakehouse physical design at ingestion time. Given a dataset and target workload, it analyzes data characteristics, workload signals, and column correlations to recommend partitioning and intra-file layout choices before poor physical design decisions degrade query performance.
+
+The system is designed to make recommendations explainable rather than opaque: users can inspect recommendation evidence, compare candidate designs, and validate whether estimated rankings align with observed query behavior. [Code](https://github.com/Liuguanli/layout_advisor)
 
 #### DriftBench
 
 <img src="/images/projects/driftbench.svg" alt="DriftBench overview" width="100%">
 
-Framework for evaluating performance stability under workload drift and data drift in benchmarking and tuning scenarios. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
+A drift-aware benchmarking framework built around a taxonomy of data drift and workload drift, plus a declarative specification layer, `DriftSpec`, for making drift scenarios executable and reproducible. It supports controlled generation of evolving data and workloads so that database components can be evaluated beyond static, one-off benchmark runs.
 
-#### RSMI
+The goal is to shift benchmarking toward continuous evaluation under change, making it easier to study robustness, stability, and adaptation in systems such as cardinality estimators, indexing methods, and query optimizers. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
 
-<img src="/images/projects/rsmi.svg" alt="RSMI overview" width="100%">
-
-Recursive learned spatial index structures for multidimensional query workloads. [Code](https://github.com/Liuguanli/RSMI) | [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
-
-**More projects**
+**Other projects**
 
 - **LBMC**: file layout method with an `O(1)` cost model for evaluating layout quality efficiently. [Code](https://github.com/Liuguanli/LBMC) | [Paper](https://www.vldb.org/pvldb/vol17/p4773-liu.pdf)
 - **RL Spatial Benchmark**: benchmarking framework for traditional and learned spatial indexes under controlled query workloads. [Code](https://github.com/Liuguanli/rl_spatial_benchmark) | [Paper](https://arxiv.org/abs/2512.11161)
+- **RSMI**: recursive learned spatial index structures for multidimensional query workloads. [Code](https://github.com/Liuguanli/RSMI) | [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
 
 ### Selected Publications
 

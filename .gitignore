@@ -1,6 +1,20 @@
-# /cv/*
-# !/cv/*.pdf
-# !/cv/*.tex
-# !/cv/*.cls
-
 .DS_Store
+
+# Jekyll build output and local caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+
+# Local Ruby dependency lockfile
+Gemfile.lock
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
