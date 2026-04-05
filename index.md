@@ -5,52 +5,50 @@ permalink: /
 author_profile: true
 ---
 
-I am a Postdoctoral Research Fellow at the University of Melbourne, working on AI for databases—including spatial indexing, reinforcement learning-based query optimization, and LLM applications. My recent research explores the use of space-filling curves for efficient spatial data organization and cost modeling.
+I am a software engineer and postdoctoral researcher at the University of Melbourne. I work on scalable backend systems, data infrastructure, and performance-oriented data systems spanning ingestion, physical design, indexing, benchmarking, and retrieval. My research and engineering work has appeared in top database venues such as VLDB and ICDE, with a focus on reliability, scalability, debuggability, and efficient execution.
 
-Previously, I was a Senior Software Engineer at Baidu, and received my M.S. and B.Eng. degrees from Northeastern University in China.
+Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at Baidu. Across research and industry, I have built end-to-end systems involving backend services, data pipelines, benchmarking frameworks, query optimization components, and retrieval workflows. I am based in Melbourne, Australia, and open to remote and relocation opportunities.
 
-[CV](/cv/resume.pdf)
+[CV](/cv/CV.pdf) | [GitHub](https://github.com/Liuguanli) | [LinkedIn](https://www.linkedin.com/in/guanli-liu-11353058/) | [Email](mailto:liuguanli22@gmail.com)
 
-### 📬 Contact
+### What I Work On
 
-- Email: **liu.guanli22@gmail.com**
-- GitHub: [Liuguanli](https://github.com/Liuguanli)
-- LinkedIn: [Guanli Liu](https://www.linkedin.com/in/guanli-liu-11353058/)
+- **Data layout and physical design**: layout advisory systems, SQL workload parsing, and efficient cost models for data lake style datasets.
+- **Benchmarking and evaluation**: frameworks for measuring performance stability, drift sensitivity, latency, and I/O behavior across indexing and database tuning workloads.
+- **Indexing and retrieval systems**: learned indexes, spatial index structures, vector retrieval pipelines, and LLM-assisted query processing.
+- **Production data engineering**: ingestion pipelines, batch and streaming workflows, analytics modeling, and backend services for data-intensive products.
 
-### 📄 Publications
+### Selected Projects
 
-- **Guanli Liu**, Renata Borovica-Gajic, Hai Lan, Zhifeng Bao. *Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts*. ICDE 2026 (to appear).
-- Lankadinee Rathuwadu, **Guanli Liu**, Christopher Leckie, Renata Borovica-Gajic. *CoLSE: A Lightweight and Robust Hybrid Learned Model for Single-Table Cardinality Estimation using Joint CDF*. ICDE 2026 (to appear).
-- Kaan Gocmen, **Guanli Liu**, Renata Borovica-Gajic. *Advancing Spatial Keyword Queries: From Filters to Unified Vector Embeddings*. ADC 2025.
-- Ruiyi Hao, **Guanli Liu**, Renata Borovica-Gajic. *LLM-Enhanced Processing of Complex Spatial Queries*. ADC 2025.
-- **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi. *Efficient Cost Modeling of Space-filling Curves*. PVLDB 2024.
-<!-- - **Guanli Liu**. *Learning Spatial Indices Efficiently*. PhD Thesis, University of Melbourne, 2023. -->
-- **Guanli Liu**, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein. *Efficient Index Learning via Model Reuse and Fine-tuning*. ICDEW 2023.
-- **Guanli Liu**, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik. *Efficiently Learning Spatial Indices*. ICDE 2023.
-- Jianzhong Qi, **Guanli Liu**, Christian S. Jensen, Lars Kulik. *Effectively Learning Spatial Indices*. PVLDB 2020.
-- Yu Gu, **Guanli Liu**, Jianzhong Qi, Hongfei Xu, Ge Yu, Rui Zhang. *The Moving K Diversified Nearest Neighbor Query*. IEEE TKDE 2016.
+- **Layout Advisor**: advisory system for dataset ingestion, workload parsing, and layout recommendation for data lake workloads. [Code](https://github.com/Liuguanli/layout_advisor)
+- **LBMC**: file layout method with an `O(1)` cost model for evaluating layout quality efficiently. [Code](https://github.com/Liuguanli/LBMC) | [Paper](https://www.vldb.org/pvldb/vol17/p4773-liu.pdf)
+- **DriftBench**: framework for evaluating performance stability under workload and data drift in benchmarking and tuning scenarios. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
+- **RL Spatial Benchmark**: benchmarking framework for traditional and learned spatial indexes under controlled query workloads. [Code](https://github.com/Liuguanli/rl_spatial_benchmark) | [Paper](https://arxiv.org/abs/2512.11161)
+- **RSMI**: recursive learned spatial index structures for multidimensional query workloads. [Code](https://github.com/Liuguanli/RSMI) | [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
 
-### 👨‍💻 Work Experience
+### Selected Publications
 
-1. **Postdoctoral Research Fellow**, University of Melbourne, 2024–present  
-2. **Data Scientist**, nftDb, 2023–2024  
-3. **Senior Software Engineer**, Baidu, 2015–2017  
-4. **Software Engineer**, Neusoft Inc., 2012  
+- **Guanli Liu**, Renata Borovica-Gajic, Hai Lan, Zhifeng Bao. *Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts*. ICDE 2026.
+- Lankadinee Rathuwadu, **Guanli Liu**, Christopher Leckie, Renata Borovica-Gajic. *CoLSE: A Lightweight and Robust Hybrid Learned Model for Single-Table Cardinality Estimation using Joint CDF*. ICDE 2026.
+- **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi. *Efficient Cost Modeling of Space-filling Curves*. VLDB 2025.
+- **Guanli Liu**, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein. *Efficient Index Learning via Model Reuse and Fine-tuning*. ICDEW 2023. [Paper](https://people.eng.unimelb.edu.au/jianzhongq/papers/DBML2023_ModelReuse.pdf)
+- **Guanli Liu**, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik. *Efficiently Learning Spatial Indices*. ICDE 2023. [Paper](https://people.eng.unimelb.edu.au/baileyj/papers/ICDE2023_ELSI.pdf)
+- Jianzhong Qi, **Guanli Liu**, Christian S. Jensen, Lars Kulik. *Effectively Learning Spatial Indices*. PVLDB 2020. [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
 
-### 🛠 Skills & Expertise
+### Experience
 
-- **Programming & Systems**: Python (data analysis, ML pipelines), C++ (indexing & storage engines), Java (backend systems)
-- **Databases & Query Engines**: PostgreSQL (extensions, optimizer internals), MySQL, MongoDB, BigQuery
-- **Machine Learning & AI**: PyTorch, TensorFlow, Scikit-learn
-- **Large Language Models**: OpenAI GPT-4/5, Llama, Mistral
-- **Cloud & Infrastructure**: Docker, Kubernetes, Google Cloud Platform
+- **Postdoctoral Research Fellow / PhD Researcher**, The University of Melbourne, 2019-Present
+- **Data Scientist**, nftDb, 2023-2024
+- **Software Engineer**, Baidu, 2015-2017
 
-<!-- ### 🎓 Supervised Students
+### Skills
 
-- **Kaan Gocmen** (Master’s, University of Melbourne) — Advancing Spatial Keyword Queries — Publication: ADC 2025.
-- **Ruiyi Hao** (Master’s, University of Melbourne) — LLM for Spatial Queries — Publication: ADC 2025.
+- **Languages**: Python, Java, C++, SQL
+- **Data Systems**: PostgreSQL, PostGIS, pgvector, BigQuery, SparkSQL, Apache Hudi
+- **Pipelines and Infrastructure**: Kafka, Airflow, dbt, REST APIs, Docker, Google Cloud Platform
+- **AI and Retrieval**: RAG pipelines, vector databases, embedding-based retrieval, PyTorch, scikit-learn
 
-### 🎓 Teaching
+### Teaching and Service
 
-- Tutor, COMP90041 Programming and Software Development – 2020 & 2021 S1  
-- Tutor, COMP90018 Mobile Computing – 2019 S2 -->
+- **Teaching**: Tutor for COMP90018 Android Application Development and COMP90041 Programming and Software Development at the University of Melbourne.
+- **Research Service**: Reviewer for SIGMOD, VLDB, KDD, TKDE, WWW, and TSAS.
