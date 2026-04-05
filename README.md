@@ -34,7 +34,7 @@
 
 ### Selected Projects
 
-- **Layout Advisor**: end-to-end advisory system for dataset ingestion, workload parsing, and layout recommendation for data lake workloads. [Code](https://github.com/Liuguanli/layout_advisor)
+- **Layout Advisor**: end-to-end advisory system for dataset ingestion, workload parsing, and layout recommendation for data lake workloads. [Code](https://github.com/Liuguanli/layout_advisor) · [Paper](./papers/layoutpilot-vldb-demo-2026.pdf)
 - **LBMC**: file layout method with an `O(1)` cost model for evaluating layout quality efficiently. [Code](https://github.com/Liuguanli/LBMC) · [Paper](https://www.vldb.org/pvldb/vol17/p4773-liu.pdf)
 - **DriftBench**: framework for evaluating performance stability under workload and data drift in benchmarking and tuning scenarios. [Code](https://github.com/Liuguanli/DriftBench) · [Paper](https://arxiv.org/abs/2510.10858)
 - **RL Spatial Benchmark**: benchmarking framework for traditional and learned spatial indexes under controlled query workloads. [Code](https://github.com/Liuguanli/rl_spatial_benchmark) · [Paper](https://arxiv.org/abs/2512.11161)
