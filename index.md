@@ -20,19 +20,23 @@ Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at 
 
 #### LayoutPilot / Layout Advisory
 
-<img src="/images/projects/layout-advisor.svg" alt="Layout Advisor overview" width="100%">
+<img src="/images/projects/layoutpilot-paper.png" alt="LayoutPilot figure from paper" style="width: 320px; max-width: 42%; float: right; margin: 0 0 1rem 1.5rem;">
 
 An interactive, workload-aware advisor for single-table lakehouse physical design at ingestion time. Given a dataset and target workload, it analyzes data characteristics, workload signals, and column correlations to recommend partitioning and intra-file layout choices before poor physical design decisions degrade query performance.
 
 The system is designed to make recommendations explainable rather than opaque: users can inspect recommendation evidence, compare candidate designs, and validate whether estimated rankings align with observed query behavior. [Code](https://github.com/Liuguanli/layout_advisor)
 
+<div style="clear: both;"></div>
+
 #### DriftBench
 
-<img src="/images/projects/driftbench.svg" alt="DriftBench overview" width="100%">
+<img src="/images/projects/driftbench-paper.png" alt="DriftBench figure from paper" style="width: 300px; max-width: 40%; float: right; margin: 0 0 1rem 1.5rem;">
 
 A drift-aware benchmarking framework built around a taxonomy of data drift and workload drift, plus a declarative specification layer, `DriftSpec`, for making drift scenarios executable and reproducible. It supports controlled generation of evolving data and workloads so that database components can be evaluated beyond static, one-off benchmark runs.
 
 The goal is to shift benchmarking toward continuous evaluation under change, making it easier to study robustness, stability, and adaptation in systems such as cardinality estimators, indexing methods, and query optimizers. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
+
+<div style="clear: both;"></div>
 
 **Other projects**
 
