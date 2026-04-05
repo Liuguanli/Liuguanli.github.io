@@ -9,7 +9,7 @@ I am a software engineer and postdoctoral researcher at the University of Melbou
 
 Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at Baidu. Across research and industry, I have built end-to-end systems involving backend services, data pipelines, benchmarking frameworks, query optimization components, and retrieval workflows. I am based in Melbourne, Australia, and open to remote and relocation opportunities.
 
-[CV](/cv/CV.pdf) | [GitHub](https://github.com/Liuguanli) | [LinkedIn](https://www.linkedin.com/in/guanli-liu-11353058/) | [Email](mailto:liuguanli22@gmail.com)
+[CV](/cv/CV.pdf)
 
 ### What I Work On
 
@@ -20,11 +20,28 @@ Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at 
 
 ### Selected Projects
 
-- **Layout Advisor**: advisory system for dataset ingestion, workload parsing, and layout recommendation for data lake workloads. [Code](https://github.com/Liuguanli/layout_advisor)
+#### Layout Advisor
+
+<img src="/images/projects/layout-advisor.svg" alt="Layout Advisor overview" width="100%">
+
+Advisory system for dataset ingestion, workload parsing, and layout recommendation for data lake workloads. [Code](https://github.com/Liuguanli/layout_advisor)
+
+#### DriftBench
+
+<img src="/images/projects/driftbench.svg" alt="DriftBench overview" width="100%">
+
+Framework for evaluating performance stability under workload drift and data drift in benchmarking and tuning scenarios. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
+
+#### RSMI
+
+<img src="/images/projects/rsmi.svg" alt="RSMI overview" width="100%">
+
+Recursive learned spatial index structures for multidimensional query workloads. [Code](https://github.com/Liuguanli/RSMI) | [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
+
+**More projects**
+
 - **LBMC**: file layout method with an `O(1)` cost model for evaluating layout quality efficiently. [Code](https://github.com/Liuguanli/LBMC) | [Paper](https://www.vldb.org/pvldb/vol17/p4773-liu.pdf)
-- **DriftBench**: framework for evaluating performance stability under workload and data drift in benchmarking and tuning scenarios. [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
 - **RL Spatial Benchmark**: benchmarking framework for traditional and learned spatial indexes under controlled query workloads. [Code](https://github.com/Liuguanli/rl_spatial_benchmark) | [Paper](https://arxiv.org/abs/2512.11161)
-- **RSMI**: recursive learned spatial index structures for multidimensional query workloads. [Code](https://github.com/Liuguanli/RSMI) | [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
 
 ### Selected Publications
 

@@ -1,0 +1,41 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="680" rx="32" fill="#F5F7FB"/>
+  <rect x="32" y="32" width="1136" height="616" rx="28" fill="#FFFFFF" stroke="#D6DDE8" stroke-width="2"/>
+
+  <text x="72" y="108" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Layout Advisor</text>
+  <text x="72" y="148" fill="#4B5563" font-family="Arial, Helvetica, sans-serif" font-size="22">Dataset ingestion, workload parsing, and physical layout recommendation</text>
+
+  <rect x="72" y="212" width="238" height="286" rx="22" fill="#ECF3FF"/>
+  <text x="104" y="258" fill="#1D4ED8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Input</text>
+  <rect x="104" y="288" width="174" height="42" rx="12" fill="#FFFFFF" stroke="#B7C8F8"/>
+  <text x="124" y="315" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="20">Dataset metadata</text>
+  <rect x="104" y="348" width="174" height="42" rx="12" fill="#FFFFFF" stroke="#B7C8F8"/>
+  <text x="124" y="375" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="20">Storage stats</text>
+  <rect x="104" y="408" width="174" height="42" rx="12" fill="#FFFFFF" stroke="#B7C8F8"/>
+  <text x="124" y="435" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="20">SQL workload</text>
+
+  <rect x="372" y="212" width="456" height="286" rx="22" fill="#EEFBF4"/>
+  <text x="404" y="258" fill="#047857" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Core System</text>
+  <rect x="404" y="292" width="392" height="54" rx="14" fill="#FFFFFF" stroke="#B7E1C7"/>
+  <text x="430" y="326" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Workload parser and feature extraction</text>
+  <rect x="404" y="366" width="392" height="54" rx="14" fill="#FFFFFF" stroke="#B7E1C7"/>
+  <text x="430" y="400" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Cost modeling and candidate generation</text>
+  <rect x="404" y="440" width="392" height="54" rx="14" fill="#FFFFFF" stroke="#B7E1C7"/>
+  <text x="430" y="474" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Layout recommendation and ranking</text>
+
+  <rect x="890" y="212" width="238" height="286" rx="22" fill="#FFF4E8"/>
+  <text x="922" y="258" fill="#C2410C" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Output</text>
+  <rect x="922" y="292" width="174" height="174" rx="16" fill="#FFFFFF" stroke="#F3C089"/>
+  <rect x="948" y="318" width="52" height="52" rx="8" fill="#F59E0B"/>
+  <rect x="1008" y="318" width="62" height="52" rx="8" fill="#FCD34D"/>
+  <rect x="948" y="378" width="122" height="22" rx="6" fill="#FED7AA"/>
+  <rect x="948" y="408" width="84" height="22" rx="6" fill="#FDBA74"/>
+  <text x="948" y="455" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="18">Recommended layout plan</text>
+
+  <path d="M320 356H360" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M348 344L360 356L348 368" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M836 356H876" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M864 344L876 356L864 368" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="72" y="578" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="20">Designed for data lake style workloads, repeatable evaluation, and practical physical design decisions.</text>
+</svg>

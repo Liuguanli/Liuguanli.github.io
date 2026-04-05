@@ -1,0 +1,50 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="680" rx="32" fill="#F6F8FB"/>
+  <rect x="32" y="32" width="1136" height="616" rx="28" fill="#FFFFFF" stroke="#D7DFEA" stroke-width="2"/>
+
+  <text x="72" y="108" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">RSMI</text>
+  <text x="72" y="148" fill="#4B5563" font-family="Arial, Helvetica, sans-serif" font-size="22">Recursive learned spatial index for multidimensional query workloads</text>
+
+  <rect x="72" y="208" width="430" height="340" rx="24" fill="#F8FAFC" stroke="#D8E1ED"/>
+  <text x="104" y="252" fill="#1E293B" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Spatial data space</text>
+  <rect x="104" y="282" width="366" height="234" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <path d="M226 282V516" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M348 282V516" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M104 360H470" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M104 438H470" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="156" cy="320" r="10" fill="#2563EB"/>
+  <circle cx="192" cy="406" r="10" fill="#2563EB"/>
+  <circle cx="250" cy="470" r="10" fill="#0F766E"/>
+  <circle cx="312" cy="334" r="10" fill="#0F766E"/>
+  <circle cx="344" cy="430" r="10" fill="#2563EB"/>
+  <circle cx="406" cy="384" r="10" fill="#EA580C"/>
+  <circle cx="438" cy="304" r="10" fill="#EA580C"/>
+
+  <rect x="558" y="208" width="248" height="340" rx="24" fill="#EEF4FF"/>
+  <text x="590" y="252" fill="#1D4ED8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Recursive model stack</text>
+  <circle cx="682" cy="314" r="32" fill="#2563EB"/>
+  <text x="671" y="321" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">R</text>
+  <circle cx="634" cy="406" r="28" fill="#60A5FA"/>
+  <circle cx="730" cy="406" r="28" fill="#60A5FA"/>
+  <circle cx="600" cy="486" r="24" fill="#BFDBFE"/>
+  <circle cx="664" cy="486" r="24" fill="#BFDBFE"/>
+  <circle cx="730" cy="486" r="24" fill="#BFDBFE"/>
+  <circle cx="792" cy="486" r="24" fill="#BFDBFE"/>
+  <path d="M682 346L646 382" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M682 346L718 382" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M634 434L612 462" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <path d="M634 434L654 462" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <path d="M730 434L718 462" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <path d="M730 434L780 462" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="862" y="208" width="266" height="340" rx="24" fill="#EEFBF4"/>
+  <text x="894" y="252" fill="#047857" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Query behavior</text>
+  <rect x="894" y="286" width="202" height="62" rx="14" fill="#FFFFFF" stroke="#B7E1C7"/>
+  <text x="922" y="325" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Point lookup</text>
+  <rect x="894" y="370" width="202" height="62" rx="14" fill="#FFFFFF" stroke="#B7E1C7"/>
+  <text x="922" y="409" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Range search</text>
+  <rect x="894" y="454" width="202" height="62" rx="14" fill="#FFFFFF" stroke="#B7E1C7"/>
+  <text x="922" y="493" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Spatial filtering</text>
+
+  <text x="72" y="606" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="20">Connects multidimensional spatial data with learned model hierarchies for efficient query routing.</text>
+</svg>

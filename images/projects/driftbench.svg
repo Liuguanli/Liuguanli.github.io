@@ -1,0 +1,35 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="680" rx="32" fill="#F7F8FC"/>
+  <rect x="32" y="32" width="1136" height="616" rx="28" fill="#FFFFFF" stroke="#D8DEEA" stroke-width="2"/>
+
+  <text x="72" y="108" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">DriftBench</text>
+  <text x="72" y="148" fill="#4B5563" font-family="Arial, Helvetica, sans-serif" font-size="22">Evaluating performance stability under workload drift and data drift</text>
+
+  <rect x="72" y="208" width="720" height="360" rx="24" fill="#F8FAFC" stroke="#D8E1ED"/>
+  <path d="M128 498H730" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M128 498V262" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  <text x="122" y="528" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="18">time / drift intensity</text>
+  <text x="78" y="268" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="18" transform="rotate(-90 78 268)">latency / stability</text>
+
+  <path d="M146 458C214 446 246 418 294 392C350 362 402 336 462 332C520 328 574 354 620 370C664 386 694 392 724 376" stroke="#2563EB" stroke-width="8" stroke-linecap="round"/>
+  <path d="M146 438C210 420 260 392 306 340C354 288 422 246 496 252C570 258 628 318 674 360C698 382 712 394 724 404" stroke="#0F766E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M146 474C214 472 262 468 322 452C394 432 432 404 482 390C548 372 612 378 680 420C698 432 712 446 724 458" stroke="#EA580C" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="294" cy="392" r="10" fill="#2563EB"/>
+  <circle cx="496" cy="252" r="10" fill="#0F766E"/>
+  <circle cx="482" cy="390" r="10" fill="#EA580C"/>
+
+  <rect x="836" y="208" width="292" height="168" rx="22" fill="#EEF4FF"/>
+  <text x="868" y="252" fill="#1D4ED8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Measures</text>
+  <text x="868" y="296" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Latency variance</text>
+  <text x="868" y="332" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">I/O sensitivity</text>
+  <text x="868" y="368" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Regression robustness</text>
+
+  <rect x="836" y="400" width="292" height="168" rx="22" fill="#FFF4E8"/>
+  <text x="868" y="444" fill="#C2410C" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Use Cases</text>
+  <text x="868" y="488" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">DB tuning</text>
+  <text x="868" y="524" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Index benchmarking</text>
+  <text x="868" y="560" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">Drift-aware evaluation</text>
+
+  <text x="72" y="606" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="20">Built to compare systems beyond peak performance by focusing on stability as workloads evolve.</text>
+</svg>
