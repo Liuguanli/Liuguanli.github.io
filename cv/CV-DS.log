@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.30)  9 NOV 2025 21:17
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.30)  11 NOV 2025 00:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,26 +412,26 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 (./CV-DS.aux)
 \openout1 = `CV-DS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -439,65 +439,65 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 12.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 12.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 12.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 12.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 12.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 12.
-LaTeX Font Info:    Redeclaring math accent \check on input line 12.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 12.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 12.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 12.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 12.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
+LaTeX Font Info:    Redeclaring math accent \check on input line 8.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 12.
+(Font)              `operators' in the math version `normal' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/texgyretermes(0)/m/n on input line 1
-2.
+(Font)                  OT1/cmr/m/n --> TU/texgyretermes(0)/m/n on input line 8
+.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 12.
+(Font)              `operators' in the math version `bold' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/m/n on input line 
-12.
+8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/m/n on 
-input line 12.
+input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/texgyretermes(0)/m/it on input line
- 12.
+ 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/b/n on input line 
-12.
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/b/n on 
-input line 12.
+input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/texgyretermes(0)/b/it on input lin
-e 12.
+e 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 12.
-Package hyperref Info: Link coloring OFF on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 8.
+Package hyperref Info: Link coloring OFF on input line 8.
  (./CV-DS.out) (./CV-DS.out)
 \@outlinefile=\write3
 \openout3 = `CV-DS.out'.
@@ -538,28 +538,28 @@ Package hyperref Info: Link coloring OFF on input line 12.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 23.
+(Font)              scaled to size 10.20007pt on input line 18.
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/n' will be
-(Font)              scaled to size 12.24008pt on input line 40.
+(Font)              scaled to size 12.24008pt on input line 21.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 43.
+(hyperref)                removing `\FA' on input line 21.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 52.
+(hyperref)                removing `\FA' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 57.
+(hyperref)                removing `\FA' on input line 33.
 
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 66.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -567,15 +567,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 111.
+(hyperref)                removing `\FA' on input line 86.
 
 
 
 [1
 
-]
-
-[2] (./CV-DS.aux)
+] (./CV-DS.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -585,15 +583,15 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `CV-DS.out' has not changed.
-(rerunfilecheck)             Checksum: 12917C8F78CEC32428FBC44FDEA54AD3;3072.
+(rerunfilecheck)             Checksum: 465435B974F9FCE651193119277DC9FB;2722.
  ) 
 Here is how much of TeX's memory you used:
- 14024 strings out of 473832
- 268522 string characters out of 5729481
- 733255 words of memory out of 5000000
+ 14025 strings out of 473832
+ 268620 string characters out of 5729481
+ 732875 words of memory out of 5000000
  36922 multiletter control sequences out of 15000+600000
- 559389 words of font info for 61 fonts, out of 8000000 for 9000
+ 559397 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 109i,5n,123p,436b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,5n,123p,490b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV-DS.xdv (2 pages, 38504 bytes).
+Output written on CV-DS.xdv (1 page, 34056 bytes).

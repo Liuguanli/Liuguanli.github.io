@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1762683461.28297 "CV-AS.xdv" "CV-AS.pdf" "CV-AS" 1762683461.53584 0
-  "CV-AS.xdv" 1762683461.25022 31568 39ddfd21a84baa601842ffa8d20f4057 "xelatex"
+["xdvipdfmx"] 1762783175.31057 "CV-AS.xdv" "CV-AS.pdf" "CV-AS" 1762783175.6056 0
+  "CV-AS.xdv" 1762783175.22438 42148 9f2c7711f7f3e25b8c65953ff7990264 "xelatex"
   (generated)
   "CV-AS.pdf"
   (rewritten before read)
-["xelatex"] 1762683460.82875 "CV-AS.tex" "CV-AS.xdv" "CV-AS" 1762683461.53521 0
+["xelatex"] 1762783174.79264 "CV-AS.tex" "CV-AS.xdv" "CV-AS" 1762783175.60498 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -72,9 +72,9 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1743310514 5639821 8ad5e089acd84e69d70a779ad9fa9228 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV-AS.aux" 1762683461.24961 1903 c8b20b4f90f43ad142a030a2c91ce2e4 "xelatex"
-  "CV-AS.out" 1762683461.25001 2341 72ec4162703c47a450a5407a80e2e3b7 "xelatex"
-  "CV-AS.tex" 1762683234.12121 3558 15d0540a1fc4cdefb29b926fee0d25d2 ""
+  "CV-AS.aux" 1762783175.22251 2166 a9df74ac55aa29887495add6535128e1 "xelatex"
+  "CV-AS.out" 1762783175.22412 2938 eac044bc2758eb99b64ff7f7ade600fc "xelatex"
+  "CV-AS.tex" 1762783166.08984 5688 59fdb8cd799c134e1960e44df148c25a ""
   "fontawesome.sty" 1762682555.37151 2852 d579838e6aaf6716eef50ccea613bea5 ""
   "resume.cls" 1762682555.60503 3296 9eb70d5d611f5c7950e2973e23791b73 ""
   (generated)

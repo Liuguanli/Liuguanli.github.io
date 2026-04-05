@@ -1,118 +1,95 @@
 \documentclass{resume}
-% \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{xcolor}
+% \usepackage[hidelinks]{hyperref}
 
-\newcommand{\SoftwareEngineer}{Software Engineer}
 \newcommand{\DataScientist}{Data Scientist}
 \newcommand{\ResearchFellow}{Postdoctoral Research Fellow}
 
-
-
-\usepackage{xcolor}
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
+\pagenumbering{gobble}
 
 \name{Guanli Liu}
 
 \basicInfo{
-  \email{guanlil1@unimelb.edu.au} \textperiodcentered\ 
-  % \email{liuguanli22@gmail.com} \textperiodcentered\ 
-  \phone{(+61) 450075953} \textperiodcentered\ 
-  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/} \textperiodcentered\ 
+  \email{guanlil1@unimelb.edu.au} \textperiodcentered\
+  \phone{(+61) 450 075 953} \textperiodcentered\
+  \linkedin[Guanli Liu]{https://www.linkedin.com/in/guanli-liu-11353058/} \textperiodcentered\
   \github[https://github.com/Liuguanli]{https://github.com/Liuguanli}
-  }
+}
 
-% \section{\faUser\ \textbf{Profile}}
-% As a newly minted PhD graduate specializing in the application of machine learning to build database indices (\textbf{AI4DB}), I possess robust data analysis and machine learning skills.
-
-
-
-
-
-% \section{\faGraduationCap\ \textbf{Education}}
-% \datedsubsection{\textbf{The University of Melbourne}, Melbourne, Australia}{Jun. 2019 -- June 2023} 
-% \textit{PhD Candidate} in Computing and Information System (GPA: H1)
-% \datedsubsection{\textbf{Northeastern University}, Shenyang, China}{Aug. 2013 -- Jun. 2015}
-% \textit{M.S.} in Computer Technology (GPA: 3.5 / Top 10\%)
-% \datedsubsection{\textbf{Northeastern University}, Shenyang, China}{Aug. 2009 -- Jun. 2013}
-% \textit{B.Eng.} in Software Engineering (GPA: 3.4 / Top 20\%)
-
+% -------------------- PROFILE --------------------
 \section{\faUser\ \textbf{Profile}}
-Data scientist with a PhD in AI4DB, specializing in probabilistic modeling, GenAI-assisted analytics, and production-grade experimentation. I translate messy behavioral data into ranking, risk, and recommendation models for teams in Australia and the US.
+Data Scientist and Research Fellow specializing in \textbf{AI for Databases}, spatial data analytics, and large-scale machine learning systems. Experienced in end-to-end data pipelines, performance optimization, and deploying analytical solutions using Python, SQL, and cloud platforms.
 
-\section{\faCogs\ \textbf{Analytics \& AI Skills}}
-\begin{itemize}[parsep=0.35ex]
-  \item \textbf{Modeling:} Causal inference, gradient boosting, sequence models, RL for tuning, LLM/RAG prompt engineering
-  \item \textbf{Tooling:} Python (pandas, PyTorch, TensorFlow, scikit-learn), BigQuery, dbt, SQL, Spark, Airflow
-  \item \textbf{Experimentation:} A/B testing, Bayesian optimization, feature stores, ML monitoring, bias/fairness analysis
-  \item \textbf{GenAI:} GPT-4/Claude APIs, embeddings, retrieval pipelines, safety filters, synthetic data generation
-  \item \textbf{Visualization \& Storytelling:} Looker, Tableau, Plotly, executive dashboards, product requirement writing
-\end{itemize}
-
+% -------------------- EDUCATION --------------------
 \section{\faGraduationCap\ \textbf{Education}}
-\datedsubsection{\textbf{PhD} in Computer Science, \textit{The University of Melbourne}, Australia}{2019 -- 2023}
-\datedsubsection{\textbf{M.S.} in Computer Technology, \textit{Northeastern University}, China}{2013 -- 2015}
-\datedsubsection{\textbf{B.Eng.} in Software Engineering, \textit{Northeastern University}, China}{2009 -- 2013}
+\datedsubsection{\textbf{PhD in Computer Science}, \textit{The University of Melbourne}, Australia}{2019 -- 2023}
+Focus: Learned index structures, spatial data analysis, and query optimization.
 
+\datedsubsection{\textbf{M.S. in Computer Technology}, \textit{Northeastern University}, China (Top 10\%)}{2013 -- 2015}
+\datedsubsection{\textbf{B.Eng. in Software Engineering}, \textit{Northeastern University}, China (Top 20\%)}{2009 -- 2013}
+
+% -------------------- EXPERIENCE --------------------
 \section{\faUsers\ \textbf{Experience}}
 
-\datedsubsection{\textbf{Postdoctoral Research Fellow (AI4DB)}, \textbf{University of Melbourne}}{2024 -- Present}
-\begin{itemize}[parsep=0.35ex]
-  \item Lead modeling for spatial index benchmarking: trained RL agents that beat hand-tuned baselines by 18\% throughput while reducing maintenance cost.
-  \item Built GenAI copilots for query engineers that summarize execution plans and suggest optimizer hints using GPT-4 + domain finetuning.
-  \item Mentor MS students on experimentation hygiene, feature documentation, and reproducibility pipelines.
+\datedsubsection{\textbf{Data Scientist}, \textbf{\href{https://nftdb.ai/}{nftDb \faExternalLink}}, Australia}{Feb. 2023 -- Feb. 2024}
+\begin{itemize}
+  \item Designed and managed large-scale NFT analytics pipelines using \textbf{Python}, \textbf{BigQuery}, and \textbf{dbt}, processing over \textbf{200M transactions}.
+  \item Built wallet-ranking and fraud-detection systems leveraging \textbf{PageRank}, clustering, and graph-based analysis.
+  \item Developed metrics dashboards for token collections on \href{https://databeast.xyz/}{\textbf{Databeast}}, improving market transparency and anomaly detection.
 \end{itemize}
 
-\datedsubsection{\textbf{Data Scientist}, \textbf{\href{https://nftdb.ai/}{nftDb \faExternalLink}}, Remote/Australia}{2023 -- 2024}
-\begin{itemize}[parsep=0.35ex]
-  \item Modeled anomalous wallet behaviors using PageRank-like graph scores + LightGBM; recall +22\% vs. heuristic baselines over 1.4B transactions.
-  \item Designed dbt modeling layers + Looker dashboards that exposed wash-trading KPIs to product and compliance stakeholders weekly.
-  \item Shipped GenAI wallet briefing notes (GPT-4 + custom embeddings) that auto-generate collector summaries, adopted by BD and community teams.
+\datedsubsection{\textbf{Postdoctoral Research Fellow}, \textbf{The University of Melbourne}}{Feb. 2024 -- May 2026}
+\begin{itemize}
+  \item Conducting research in \textbf{AI-augmented database systems}, focusing on spatial indexing, learned cost models, and reinforcement learning for query optimization.
+  \item Supervising master’s students and coordinating collaborative projects across \textbf{RMIT} and \textbf{Aalborg University}.
+  \item Published in \textit{VLDB}, \textit{ICDE}, and \textit{TKDE} (A* venues).
 \end{itemize}
 
-\datedsubsection{\textbf{Research Assistant / Data Scientist}, \textbf{University of Melbourne}}{2019 -- 2023}
-\begin{itemize}[parsep=0.35ex]
-  \item Developed a coding-style checker (Python, AST analysis + GenAI repair suggestions) improving student error detection by 35\%.
-  \item Instrumented reading-interruption study pipelines: Node.js backend, GCP infra, usage analytics, and Midjourney/GPT content workflows.
+\datedsubsection{\textbf{Software Engineer}, \textbf{Baidu}, China}{Jul. 2015 -- Aug. 2017}
+\begin{itemize}
+  \item Developed key features for \href{https://infoflow.baidu.com/}{\textbf{Infoflow}}, Baidu’s enterprise IM platform (\textbf{Java/Android}).
+  \item Improved database query efficiency by \textbf{20\%} through index optimization and caching strategies.
+  \item Designed voice-assistant and message-protocol modules using design patterns and SDK integration.
 \end{itemize}
 
-\datedsubsection{\textbf{Software Engineer}, \textbf{Baidu}, China}{2015 -- 2017}
-\begin{itemize}[parsep=0.35ex]
-  \item Partnered with data scientists to add telemetry hooks and experimentation switches across the InfoFlow messaging stack (Java, Android).
-  \item Implemented on-device ranking features and logging that powered personalization models for 40K+ enterprise users.
-\end{itemize}
-
-
-% \datedsubsection{\textbf{Software Engineer}, Baidu, China}{Jul. 2015 -- Aug. 2017}
-% \role{}{Android Development (\textbf{Java})}
-% Worked on Instant Messaging (IM) software development, which is an enterprise intelligent platform \href{https://infoflow.baidu.com/}{[\textbf{infoflow}]}. 
-% Key contributions are as follows:
-
+% -------------------- PROJECTS --------------------
+% \section{\faDatabase\ \textbf{Selected Projects}}
 % \begin{itemize}
-%   \item Designed new message protocols, e.g., Recall message, Delete message, Red pocket Message, etc.
-%   \item Designed Voice Assistant module by voice recognition SDK to send message, order meeting room, etc.
-%   \item Optimised the database retrieval efficiency by about 20\% by optimising database table index.
-%   \item Optimised application centre UI with flexible configuration by new widgets.
-%   \item Improved all message module development efficiency by using design patterns, e.g., Builder.
-%   \item Analysed, fixed, and documented tough bugs.
+%   \item \textbf{RL-Enhanced Spatial Index Benchmark:} Open-source benchmark (\href{https://github.com/Liuguanli/rl_spatial_benchmark}{\textcolor{blue}{[Code]}}) comparing learned, traditional, and RL-optimized spatial indices.
+%   \item \textbf{LLM-Augmented Query Optimizer:} Prototype integrating GPT-based reasoning with PostgreSQL’s cost model and pgvector embeddings.
+%   \item \textbf{NFT Behavior Analysis:} Built graph-based wallet clustering for trading pattern detection and ranking pipeline in production.
 % \end{itemize}
 
+% % -------------------- PUBLICATIONS --------------------
 
+\section{\faFile\ \textbf{Selected Publications}}
+\begin{itemize}
+\item \textbf{Guanli Liu}, Renata Borovica-Gajic, Hai Lan, Zhifeng Bao.  
+``Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts.''  
+\textit{ICDE}, 2026. 
 
-% \item Guanli Liu, Jianzhong Qi, Christian S. Jensen, Tianyi Li, Lars Kulik. Efficient Cost Modelling of Space-filling Curves. Submitted to SIGMOD 2024. \href{https://github.com/Liuguanli/LearnSFC}{[\textbf{source code}]} 
+ \item \textbf{Guanli Liu}, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi.  
+  ``Efficient Cost Modeling of Space-filling Curves." \textit{VLDB}, 2025.  
 
-% \section{\faFile\ \textbf{Publications}}
-% \begin{itemize}
-%  \item G. Liu et al. "Efficient Index Learning via Model Reuse and Fine-tuning." \textit{DBML@ICDE 2023}. 
-%  \item G. Liu et al. "Efficiently Learning Spatial Indices." \textit{ICDE 2023}.
-%  \item J. Qi, G. Liu, et al. "Effectively Learning Spatial Indices." \textit{VLDB}, 2020.
-%  \item Y. Gu, G. Liu, et al. "The Moving K Diversified Nearest Neighbor Query." \textit{TKDE}, 2016.
-% \end{itemize}
-\section{\faFile\ \textbf{Publications \& Impact}}
-\begin{itemize}[parsep=0.35ex]
- \item \textbf{VLDB 2024/2025}: Efficient cost modeling of space-filling curves powering adaptive storage layouts.
- \item \textbf{ICDE 2023}: Efficiently learning spatial indexes; toolkit open-sourced and reused by multiple labs.
- \item \textbf{ICDEW 2023}: Model reuse/fine-tuning for learned indexes, highlighting rapid experimentation workflows.
+  % \item \textbf{Guanli Liu}, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein.  
+  % ``Efficient Index Learning via Model Reuse and Fine-tuning." \textit{ICDEW}, 2023.  
+  % Explores transfer learning for learned indexes, reducing training costs while maintaining high accuracy.
+
+  \item \textbf{Guanli Liu}, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik.  
+  ``Efficiently Learning Spatial Indices." \textit{ICDE}, 2023.  
+
+  
+\end{itemize}
+
+% -------------------- SKILLS --------------------
+\section{\faCogs\ \textbf{Technical Skills}}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{Programming:} Python, SQL, Java, C++
+  \item \textbf{Machine Learning:} Scikit-learn, PyTorch, TensorFlow
+  \item \textbf{Big Data \& Databases:} PostgreSQL, MySQL, BigQuery, Spark, dbt, Airflow
+  \item \textbf{Data Visualization:} Matplotlib, Seaborn, Tableau
+  \item \textbf{Cloud \& DevOps:} GCP, Docker, Git, Linux
 \end{itemize}
 
 \end{document}
