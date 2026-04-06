@@ -20,7 +20,7 @@ Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at 
 
 #### LayoutPilot / Layout Advisory
 
-<img src="/images/projects/layoutpilot-paper.png" alt="LayoutPilot figure from paper" style="width: 285px; max-width: 37%; float: right; margin: 0.15rem 0 1rem 1.5rem; padding: 0.35rem; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff;">
+<img src="/images/projects/layoutpilot-paper.png" alt="LayoutPilot figure from paper" style="width: 325px; max-width: 42%; float: right; margin: 0.15rem 0 1rem 1.5rem; padding: 0.35rem; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff;">
 
 An interactive, workload-aware advisor for single-table lakehouse physical design at ingestion time. Given a dataset and target workload, it analyzes data characteristics, workload signals, and column correlations to recommend partitioning and intra-file layout choices before poor physical design decisions degrade query performance.
 
