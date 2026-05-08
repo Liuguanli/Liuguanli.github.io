@@ -3,7 +3,7 @@ site_theme: "default"
 title: "Guanli Liu"
 name: "Guanli Liu"
 description: "Postdoctoral Research Fellow — AI for Databases"
-url: https://liuguanli.github.io
+url: ""
 baseurl: ""
 repository: Liuguanli/Liuguanli.github.io
 remote_theme: academicpages/academicpages.github.io
@@ -11,7 +11,7 @@ remote_theme: academicpages/academicpages.github.io
 author:
   avatar: "head.png"
   name: "Guanli Liu"
-  bio: "AI4DB · Spatial indexing · Learned query optimization"
+  bio: "Software Engineer · Data Systems · Backend Infrastructure"
   location: "Melbourne, Australia"
   employer: "University of Melbourne"
   email: "liu.guanli22@gmail.com"

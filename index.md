@@ -1,87 +1,421 @@
 ---
 layout: single
-title: "About Me"
+title: "Portfolio"
 permalink: /
-author_profile: true
+author_profile: false
 ---
 
-I am a software engineer and postdoctoral researcher at the University of Melbourne. I work on scalable backend systems, data infrastructure, and performance-oriented data systems spanning ingestion, physical design, indexing, benchmarking, and retrieval. My research and engineering work has appeared in top database venues such as VLDB and ICDE, with a focus on reliability, scalability, debuggability, and efficient execution.
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
-Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at Baidu. Across research and industry, I have built end-to-end systems involving backend services, data pipelines, benchmarking frameworks, query optimization components, and retrieval workflows. I am based in Melbourne, Australia, and open to remote and relocation opportunities.
+:root {
+  --bg: #f5f5ef;
+  --paper: #fffef8;
+  --ink: #1f2a30;
+  --muted: #4f5f66;
+  --line: #c8d0c8;
+  --accent: #0c7f63;
+  --accent-2: #d97b2d;
+  --soft: #eaf2ec;
+}
 
-### What I Work On
+@media (min-width: 57.8125em) {
+  #main,
+  .masthead__inner-wrap,
+  .breadcrumbs {
+    max-width: 1320px;
+  }
 
-- **Data layout and physical design**: layout advisory systems, SQL workload parsing, and efficient cost models for data lake style datasets.
-- **Benchmarking and evaluation**: frameworks for measuring performance stability, drift sensitivity, latency, and I/O behavior across indexing and database tuning workloads.
-- **Indexing and retrieval systems**: learned indexes, spatial index structures, vector retrieval pipelines, and LLM-assisted query processing.
-- **Production data engineering**: ingestion pipelines, batch and streaming workflows, analytics modeling, and backend services for data-intensive products.
+  .page {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
-### Selected Projects
+.page__content {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--ink);
+}
 
-#### LayoutPilot / Layout Advisory
+.page__content p,
+.page__content li {
+  color: var(--muted);
+  line-height: 1.7;
+}
 
-<img src="/images/projects/layoutpilot-paper.png" alt="LayoutPilot figure from paper" style="width: 325px; max-width: 42%; float: right; margin: 0.15rem 0 1rem 1.5rem; padding: 0.35rem; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff;">
+.page__title {
+  display: none;
+}
 
-An interactive, workload-aware advisor for single-table lakehouse physical design at ingestion time. Given a dataset and target workload, it analyzes data characteristics, workload signals, and column correlations to recommend partitioning and intra-file layout choices before poor physical design decisions degrade query performance.
+.portfolio-hero {
+  margin: 0 0 2.2rem;
+  padding: 3.6rem 2rem 3rem;
+  background:
+    radial-gradient(circle at 86% 22%, rgba(217, 123, 45, 0.2), transparent 40%),
+    linear-gradient(150deg, #f2f1e8 0%, #dceae2 52%, #e9f2ee 100%);
+  border-bottom: 1px solid #b9c8be;
+  border-radius: 16px;
+}
 
-The system is designed to make recommendations explainable rather than opaque: users can inspect recommendation evidence, compare candidate designs, and validate whether estimated rankings align with observed query behavior.
+.portfolio-hero__layout {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: center;
+}
 
-**Links:** [Code](https://github.com/Liuguanli/layout_advisor) | [Paper](/papers/layoutpilot-vldb-demo-2026.pdf)
+.portfolio-hero__portrait {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 12px 28px rgba(16, 34, 36, 0.14);
+  background: #ffffff;
+}
 
-<div style="clear: both;"></div>
+.portfolio-hero__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
-#### DriftBench
+.portfolio-hero__kicker {
+  margin: 0 0 0.8rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #476054;
+  font-weight: 700;
+}
 
-<img src="/images/projects/driftbench-paper.png" alt="DriftBench figure from paper" style="width: 285px; max-width: 37%; float: right; margin: 0.15rem 0 1rem 1.5rem; padding: 0.35rem; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff;">
+.portfolio-hero h1 {
+  margin: 0;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: clamp(2rem, 5.6vw, 3.6rem);
+  line-height: 1.05;
+  color: #162329;
+}
 
-A drift-aware benchmarking framework built around a taxonomy of data drift and workload drift, plus a declarative specification layer, `DriftSpec`, for making drift scenarios executable and reproducible. It supports controlled generation of evolving data and workloads so that database components can be evaluated beyond static, one-off benchmark runs.
+.portfolio-hero__lead {
+  margin: 1rem 0 1.6rem;
+  max-width: 820px;
+  font-size: 1.05rem;
+  color: #2f434b;
+}
 
-The goal is to shift benchmarking toward continuous evaluation under change, making it easier to study robustness, stability, and adaptation in systems such as cardinality estimators, indexing methods, and query optimizers.
+.portfolio-hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
 
-**Links:** [Code](https://github.com/Liuguanli/DriftBench) | [Paper](https://arxiv.org/abs/2510.10858)
+.portfolio-hero__cta a {
+  display: inline-block;
+  padding: 0.5rem 0.88rem;
+  border: 1px solid #90a397;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.65);
+  color: #19313b;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: transform 0.22s ease, background 0.22s ease, border-color 0.22s ease;
+}
 
-<div style="clear: both;"></div>
+.portfolio-hero__cta a:hover {
+  transform: translateY(-2px);
+  border-color: #446e5d;
+  background: #ffffff;
+}
 
-### Selected Publications
+.portfolio-section {
+  margin: 2.25rem 0;
+}
 
-- **Guanli Liu**, Renata Borovica-Gajic, Hai Lan, Zhifeng Bao. *Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts*. ICDE 2026.
-- Lankadinee Rathuwadu, **Guanli Liu**, Christopher Leckie, Renata Borovica-Gajic. *CoLSE: A Lightweight and Robust Hybrid Learned Model for Single-Table Cardinality Estimation using Joint CDF*. ICDE 2026.
-- **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi. *Efficient Cost Modeling of Space-filling Curves*. VLDB 2025.
-- **Guanli Liu**, Jianzhong Qi, Lars Kulik, Kazuya Soga, Renata Borovica-Gajic, Benjamin I. P. Rubinstein. *Efficient Index Learning via Model Reuse and Fine-tuning*. ICDEW 2023. [Paper](https://people.eng.unimelb.edu.au/jianzhongq/papers/DBML2023_ModelReuse.pdf)
-- **Guanli Liu**, Jianzhong Qi, Christian S. Jensen, James Bailey, Lars Kulik. *Efficiently Learning Spatial Indices*. ICDE 2023. [Paper](https://people.eng.unimelb.edu.au/baileyj/papers/ICDE2023_ELSI.pdf)
-- Jianzhong Qi, **Guanli Liu**, Christian S. Jensen, Lars Kulik. *Effectively Learning Spatial Indices*. PVLDB 2020. [Paper](https://www.vldb.org/pvldb/vol13/p2341-qi.pdf)
+.portfolio-section h2 {
+  margin-bottom: 0.6rem;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  color: #172a30;
+  font-size: clamp(1.35rem, 2.8vw, 1.95rem);
+}
 
-### Research and Work Experience
+.portfolio-section__note {
+  margin: 0 0 1rem;
+  color: #455862;
+}
 
-- **PhD + Postdoc, The University of Melbourne, Australia**, June 2019-Present  
-  Lead research and engineering projects on database benchmarking, indexing, and AI-driven query processing. Design system prototypes, supervise junior researchers, and collaborate with academic and industry partners.
-- **Data Scientist, nftDb, Australia**, Feb. 2023-Feb. 2024  
-  Built Python-based ingestion pipelines for raw blockchain transaction data, supporting Kafka-based streaming and Airflow-orchestrated batch workflows for downstream analytics. Developed SQL and dbt workflows to clean, normalize, and model large-scale transaction data into analytics-ready tables for product insights and reporting. Queried and analyzed transaction-level datasets in BigQuery, and developed an internal RAG-based knowledge assistant for documentation retrieval, data asset discovery, and workflow support across engineering teams.
-- **Software Engineer, Baidu, China**, Jul. 2015-Aug. 2017  
-  Worked on Baidu's IM platform serving employees and business partners. Designed messaging protocols and implemented message deduplication mechanisms to improve delivery reliability and consistency across large-scale communication workflows. Improved database performance through profiling, query optimization, and systematic tuning of backend data access workflows.
+.track-list {
+  border-top: 1px solid var(--line);
+}
 
-### Engineering Skills
+.track-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 0.45rem;
+}
 
-- **Programming**: Proficient in Python and Java, with working knowledge of C++ and SQL
-- **Data Systems and Pipelines**: Experience with SparkSQL, Apache Hudi, REST APIs, data ingestion pipelines, and batch / incremental data processing
-- **Databases**: Experience with PostgreSQL, PostGIS, pgvector, BigQuery, and spatial data management
-- **AI / Retrieval Systems**: Experience with RAG pipelines, vector databases, embedding-based retrieval
-- **Cloud and Infrastructure**: Experience with Google Cloud Platform and Docker
-- **Machine Learning**: Hands-on experience with PyTorch, TorchLib, Scikit-learn, and common machine learning algorithms for classification, regression, clustering, and representation learning
-- **Algorithmic Knowledge**: Solid understanding of fundamental data structures and algorithms
+.track-item strong {
+  color: #1c343d;
+  font-size: 1.03rem;
+}
 
-### Education
+.case-list {
+  border-top: 1px solid var(--line);
+}
 
-- **PhD in Computer Science**, The University of Melbourne, Australia, 2019-2023
-- **M.S. in Computer Technology**, Northeastern University, China, 2013-2015
-- **B.Eng. in Software Engineering**, Northeastern University, China, 2009-2013
+.case-item {
+  padding: 1.15rem 0 1.3rem;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 0.9rem;
+}
 
-### Teaching
+.case-item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
 
-- **COMP90018 - Android Application Development (The University of Melbourne)**: Tutor from Aug. 2019 to 2023, responsible for tutorials, student support, and assessment marking.
-- **COMP90041 - Programming and Software Development (The University of Melbourne)**: Tutor from Aug. 2019 to 2023, responsible for tutorials and assessment marking.
+.case-item__meta span {
+  display: inline-block;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  background: var(--soft);
+  color: #21453b;
+  border: 1px solid #cad9ce;
+}
 
-### Research Service
+.case-item__title {
+  margin: 0;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  color: #11262e;
+}
 
-- **Conference Reviewer**: SIGMOD 2026, VLDB 2027 (PC), VLDB 2026 (Shadow PC), VLDB 2025 (External), KDD 2026, KDD 2025 (Excellent Reviewer)
-- **Journal Reviewer**: TKDE, WWW, Transactions on Spatial Algorithms and Systems (TSAS)
+.case-item__grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.case-item__media img {
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  border: 1px solid #d8ddd8;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.case-item__links {
+  font-size: 0.93rem;
+}
+
+.case-item__links a {
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.case-item__links a:hover {
+  text-decoration: underline;
+}
+
+.build-queue {
+  padding: 1rem 1.1rem;
+  border: 1px solid #cfdbd3;
+  border-radius: 14px;
+  background: linear-gradient(155deg, #ffffff 0%, #f2f8f4 100%);
+}
+
+.build-queue ul {
+  margin: 0.5rem 0 0;
+}
+
+.timeline {
+  margin-top: 0.5rem;
+  border-left: 2px solid #b8c7bc;
+  padding-left: 1rem;
+}
+
+.timeline p {
+  margin: 0 0 0.75rem;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.fade-up:nth-child(2) { animation-delay: 0.08s; }
+.fade-up:nth-child(3) { animation-delay: 0.16s; }
+.fade-up:nth-child(4) { animation-delay: 0.24s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 57.8125em) {
+  .case-item__grid {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    align-items: start;
+  }
+}
+
+@media (max-width: 57.8124em) {
+  .portfolio-hero {
+    margin-bottom: 1.6rem;
+    padding: 2.4rem 1.2rem 2.2rem;
+  }
+
+  .portfolio-hero__layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .portfolio-hero__portrait {
+    width: 132px;
+    height: 132px;
+  }
+
+  .portfolio-hero h1 {
+    font-size: clamp(1.8rem, 9.5vw, 3rem);
+  }
+}
+</style>
+
+<section class="portfolio-hero">
+  <div class="portfolio-hero__layout">
+    <figure class="portfolio-hero__portrait fade-up">
+      <img src="/images/head.png" alt="Portrait of Guanli Liu">
+    </figure>
+    <div>
+      <p class="portfolio-hero__kicker fade-up">Guanli (Leo) Liu · Backend Systems · Data Infrastructure · Research Engineering</p>
+      <h1 class="fade-up">I build data and AI systems, then turn them into reproducible, measurable products.</h1>
+      <p class="portfolio-hero__lead fade-up">
+        Postdoctoral researcher and engineer at the University of Melbourne. This site is organized as a growing portfolio of case studies across database systems, benchmarking, and LLM-assisted data workflows.
+      </p>
+      <div class="portfolio-hero__cta fade-up">
+        <a href="/cv/resume.pdf">View CV</a>
+        <a href="https://github.com/Liuguanli">GitHub</a>
+        <a href="https://www.linkedin.com/in/guanli-liu/">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?hl=en&user=7e89UC8AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+        <a href="mailto:liuguanli22@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-section">
+  <h2>Portfolio Tracks</h2>
+  <p class="portfolio-section__note">Each track will continue to grow with technical write-ups, demo snapshots, and code references.</p>
+  <div class="track-list">
+    <article class="track-item">
+      <strong>Data Layout and Query Performance Systems</strong>
+      <span>Lakehouse physical design, indexing, and cost-aware optimization.</span>
+    </article>
+    <article class="track-item">
+      <strong>Benchmarking and Drift-Aware Evaluation</strong>
+      <span>Controlled experiment pipelines for workload/data drift and reproducible system comparisons.</span>
+    </article>
+    <article class="track-item">
+      <strong>LLM-Assisted Data Workflows</strong>
+      <span>RAG and agent pipelines that convert natural language intent into executable database tasks.</span>
+    </article>
+    <article class="track-item">
+      <strong>Backend and Data Platform Delivery</strong>
+      <span>PostgreSQL services, API layers, automation workflows, and production-style engineering practices.</span>
+    </article>
+  </div>
+</section>
+
+<section class="portfolio-section">
+  <h2>Featured Build Stories</h2>
+  <p class="portfolio-section__note">Projects are presented as build stories: problem context, technical implementation, and measurable outcome.</p>
+  <div class="case-list">
+    <article class="case-item">
+      <div class="case-item__meta">
+        <span>System Design</span>
+        <span>Lakehouse</span>
+        <span>VLDB 2026 (Submitted)</span>
+      </div>
+      <h3 class="case-item__title">LayoutPilot / Layout Advisory</h3>
+      <div class="case-item__grid">
+        <div>
+          <p>Designed an advisory backend for analytical data lake workloads, including workload ingestion, SQL parsing, and reusable decision logic for partitioning and intra-file layout choices.</p>
+          <p><strong>Stack:</strong> Python, SQL parsing workflows, experiment harnesses, Dockerized service environment.</p>
+          <p class="case-item__links"><a href="https://github.com/Liuguanli/layout_advisor">Code</a></p>
+        </div>
+        <div class="case-item__media">
+          <img src="/images/projects/layoutpilot-paper.png" alt="LayoutPilot paper figure">
+        </div>
+      </div>
+    </article>
+
+    <article class="case-item">
+      <div class="case-item__meta">
+        <span>Benchmarking</span>
+        <span>Drift-Aware</span>
+        <span>VLDB 2026</span>
+      </div>
+      <h3 class="case-item__title">DriftBench</h3>
+      <div class="case-item__grid">
+        <div>
+          <p>Built a modular benchmarking framework for evaluating system behavior under workload and data drift, with configurable workload generation and repeatable performance analysis.</p>
+          <p><strong>Stack:</strong> Python, benchmark DSL design, automation scripts, reproducible experiment pipelines.</p>
+          <p class="case-item__links"><a href="https://github.com/Liuguanli/DriftBench">Code</a></p>
+        </div>
+        <div class="case-item__media">
+          <img src="/images/projects/driftbench-paper.png" alt="DriftBench paper figure">
+        </div>
+      </div>
+    </article>
+
+    <article class="case-item">
+      <div class="case-item__meta">
+        <span>Agent Infrastructure</span>
+        <span>Prototype</span>
+      </div>
+      <h3 class="case-item__title">Metadata-Native Agent Workspace Infrastructure</h3>
+      <p>Proposed and prototyped an infrastructure direction where metadata drives task-aware context routing, access control, and recoverable actions for agent workflows.</p>
+      <p class="case-item__links">Public write-up and architecture notes will be published in an upcoming portfolio update.</p>
+    </article>
+
+    <article class="case-item">
+      <div class="case-item__meta">
+        <span>LLM + DB</span>
+        <span>Applied AI</span>
+      </div>
+      <h3 class="case-item__title">LLM-Assisted Query Agents</h3>
+      <p>Developed agents that translate natural language requests into executable database workflows through retrieval, query decomposition, and result-grounded evaluation.</p>
+      <p class="case-item__links">Demo snapshots and prompt-to-query traces will be added as a case study.</p>
+    </article>
+  </div>
+</section>
+
+<section class="portfolio-section build-queue">
+  <h2>Build Queue (Next Portfolio Drops)</h2>
+  <ul>
+    <li><strong>Blockchain Data Platform at nftDb:</strong> Kafka + Airflow ingestion and BigQuery analytics workflow case study.</li>
+    <li><strong>Baidu IM Backend:</strong> message protocol and deduplication reliability engineering breakdown.</li>
+    <li><strong>Evaluation Tooling:</strong> reusable experiment templates and CI-style benchmark validation pipeline.</li>
+  </ul>
+</section>
+
+<section class="portfolio-section">
+  <h2>Timeline Snapshot</h2>
+  <div class="timeline">
+    <p><strong>2024-Present:</strong> Postdoctoral Research Fellow, The University of Melbourne (backend systems, benchmarking frameworks, LLM-assisted data systems).</p>
+    <p><strong>2023-2024:</strong> Data Scientist / Data Infrastructure Engineer, nftDb (pipeline automation, RAG assistant, analytics workflows).</p>
+    <p><strong>2015-2017:</strong> Software Engineer, Baidu (IM backend services, protocol design, database performance tuning).</p>
+  </div>
+</section>

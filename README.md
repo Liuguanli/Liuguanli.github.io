@@ -11,7 +11,7 @@
   </p>
 </div>
 
-[CV](./cv/CV.pdf) · [LinkedIn](https://www.linkedin.com/in/guanli-liu-11353058/) · [GitHub](https://github.com/Liuguanli) · [Email](mailto:liuguanli22@gmail.com)
+[CV](./cv/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/guanli-liu-11353058/) · [GitHub](https://github.com/Liuguanli) · [Email](mailto:liuguanli22@gmail.com)
 
 ---
 
