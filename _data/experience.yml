@@ -1,0 +1,30 @@
+- company: "The University of Melbourne"
+  role: "Postdoctoral Research Fellow / PhD Researcher"
+  start: "2019"
+  end: "Present"
+  location: "Melbourne, Australia"
+  highlights:
+    - "Leading research and engineering projects on database benchmarking, indexing, data layout, and AI-driven query processing."
+    - "Designing system prototypes, supervising junior researchers, and co-supervising master's students on spatial indexing and database systems."
+    - "Building backend systems and reproducible evaluation pipelines for data and AI workloads."
+  logo: ""
+
+- company: "nftDb"
+  role: "Data Scientist / Data Infrastructure Engineer"
+  start: "2023"
+  end: "2024"
+  location: "Melbourne, Australia"
+  highlights:
+    - "Built blockchain ingestion pipelines, dbt and SQL analytics workflows, and BigQuery-based analysis."
+    - "Developed an internal RAG assistant for engineering knowledge retrieval."
+  logo: ""
+
+- company: "Baidu"
+  role: "Software Engineer"
+  start: "2015"
+  end: "2017"
+  location: "China"
+  highlights:
+    - "Worked on large-scale messaging systems and protocol design for internal communication platforms."
+    - "Improved message deduplication and database performance in production backend services."
+  logo: ""

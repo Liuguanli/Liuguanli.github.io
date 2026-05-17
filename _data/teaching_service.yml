@@ -1,0 +1,17 @@
+mentoring:
+  - "Co-supervising master's students on research projects in spatial indexing and database systems."
+  - "Supervising junior researchers in reproducible benchmarking and AI-driven data systems projects."
+
+teaching:
+  - course: "COMP90018 - Android Application Development (The University of Melbourne)"
+    role: "Tutor"
+    period: "Aug. 2019 - 2023"
+    details: "Responsible for tutorials, student support, and assessment marking."
+  - course: "COMP90041 - Programming and Software Development (The University of Melbourne)"
+    role: "Tutor"
+    period: "Aug. 2019 - 2023"
+    details: "Responsible for tutorials and assessment marking."
+
+research_service:
+  - "Conference Reviewer: SIGMOD 2026, ICDE 2027, VLDB 2027/2026/2025, KDD 2026/2025 (Excellent Reviewer)."
+  - "Journal Reviewer: TKDE, WWW, and Transactions on Spatial Algorithms and Systems (TSAS)."
