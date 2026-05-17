@@ -176,6 +176,14 @@ author_profile: false
   gap: 0.9rem;
 }
 
+.case-item--featured {
+  margin-top: 0.7rem;
+  padding: 1.1rem 1rem 1.3rem;
+  border: 1px solid #98c8b7;
+  border-radius: 14px;
+  background: linear-gradient(155deg, #ffffff 0%, #eef8f3 100%);
+}
+
 .case-item__meta {
   display: flex;
   flex-wrap: wrap;
@@ -214,16 +222,81 @@ author_profile: false
 
 .case-item__links {
   font-size: 0.93rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-.case-item__links a {
+.case-item__links a,
+.link-pill {
+  display: inline-block;
+  padding: 0.26rem 0.62rem;
+  border: 1px solid #bad5c7;
+  border-radius: 999px;
+  background: #ffffff;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
 }
 
-.case-item__links a:hover {
+.case-item__links a:hover,
+.link-pill:hover {
+  border-color: #4e8d77;
+  text-decoration: none;
+}
+
+.link-pill--primary {
+  background: #0c7f63;
+  border-color: #0b745b;
+  color: #ffffff !important;
+}
+
+.publication-list {
+  border-top: 1px solid var(--line);
+}
+
+.publication-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 0.45rem;
+}
+
+.publication-item__title {
+  margin: 0;
+  color: #1c343d;
+  font-size: 1.02rem;
+}
+
+.publication-item__meta {
+  font-size: 0.9rem;
+}
+
+.publication-item__links {
+  font-size: 0.9rem;
+}
+
+.publication-item__links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.publication-item__links a:hover {
   text-decoration: underline;
+}
+
+.publication-badge {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.1rem 0.42rem;
+  border-radius: 999px;
+  border: 1px solid #cad9ce;
+  background: var(--soft);
+  color: #21453b;
+  font-size: 0.74rem;
+  font-weight: 600;
+  vertical-align: middle;
 }
 
 .build-queue {
@@ -245,6 +318,31 @@ author_profile: false
 
 .timeline p {
   margin: 0 0 0.75rem;
+}
+
+.experience-item {
+  margin: 0 0 1rem;
+}
+
+.experience-item p {
+  margin: 0.35rem 0;
+}
+
+.teaching-service-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid #cfdbd3;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.teaching-service-card h3 {
+  margin: 0.2rem 0 0.5rem;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  color: #172a30;
+}
+
+.teaching-service-card ul {
+  margin-top: 0.25rem;
 }
 
 .fade-up {
@@ -316,24 +414,28 @@ author_profile: false
 </section>
 
 <section class="portfolio-section">
-  <h2>Portfolio Tracks</h2>
-  <p class="portfolio-section__note">Each track will continue to grow with technical write-ups, demo snapshots, and code references.</p>
+  <h2>Research & Engineering Focus</h2>
+  <p class="portfolio-section__note">Current focus areas linked to active systems, papers, and open-source delivery.</p>
   <div class="track-list">
     <article class="track-item">
-      <strong>Data Layout and Query Performance Systems</strong>
-      <span>Lakehouse physical design, indexing, and cost-aware optimization.</span>
+      <strong>Drift-Aware Benchmarking Systems</strong>
+      <span>DriftBench and AI-DB benchmark workflows for reproducible workload and data drift evaluation.</span>
     </article>
     <article class="track-item">
-      <strong>Benchmarking and Drift-Aware Evaluation</strong>
-      <span>Controlled experiment pipelines for workload/data drift and reproducible system comparisons.</span>
+      <strong>PostgreSQL Extension Intelligence</strong>
+      <span>Extension-oriented benchmarking and integration of HMAB, GRASP, and CoLSE in a unified AI-DB runtime.</span>
     </article>
     <article class="track-item">
-      <strong>LLM-Assisted Data Workflows</strong>
-      <span>RAG and agent pipelines that convert natural language intent into executable database tasks.</span>
+      <strong>Data Layout and Query Performance</strong>
+      <span>Lakehouse physical design, indexing, and cost-aware optimization for analytical workloads.</span>
     </article>
     <article class="track-item">
-      <strong>Backend and Data Platform Delivery</strong>
-      <span>PostgreSQL services, API layers, automation workflows, and production-style engineering practices.</span>
+      <strong>LLM-Assisted Database Workflows</strong>
+      <span>Natural language to executable query pipelines with retrieval, decomposition, and result-grounded checks.</span>
+    </article>
+    <article class="track-item">
+      <strong>Open-Source Product Delivery</strong>
+      <span>GitHub-first development, PyPI releases, documentation websites, and repeatable CI/CD workflows.</span>
     </article>
   </div>
 </section>
@@ -342,6 +444,44 @@ author_profile: false
   <h2>Featured Build Stories</h2>
   <p class="portfolio-section__note">Projects are presented as build stories: problem context, technical implementation, and measurable outcome.</p>
   <div class="case-list">
+    <article class="case-item case-item--featured">
+      <div class="case-item__meta">
+        <span>Benchmarking</span>
+        <span>Drift-Aware</span>
+        <span>VLDB 2026</span>
+      </div>
+      <h3 class="case-item__title">DriftBench</h3>
+      <div class="case-item__grid">
+        <div>
+          <p>Built a full-stack drift-aware benchmarking system that helps database researchers generate, reuse, and reproduce evolving datasets and workloads with reproducible pipelines and release automation.</p>
+          <p><strong>Stack:</strong> Python, CLI workflows, workload/data generators, CI/CD pipelines, benchmark automation.</p>
+          <p class="case-item__links">
+            <a class="link-pill" href="https://github.com/Liuguanli/DriftBench">GitHub</a>
+            <a class="link-pill link-pill--primary" href="https://pypi.org/project/driftbench-db/"><i class="fab fa-python" aria-hidden="true"></i> PyPI</a>
+            <a class="link-pill link-pill--primary" href="https://www.driftbench.com/"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+            <a class="link-pill" href="https://arxiv.org/abs/2510.10858">VLDB 2026</a>
+          </p>
+        </div>
+        <div class="case-item__media">
+          <img src="/images/projects/driftbench-paper.png" alt="DriftBench paper figure">
+        </div>
+      </div>
+    </article>
+
+    <article class="case-item">
+      <div class="case-item__meta">
+        <span>Benchmarking</span>
+        <span>AI-DB</span>
+        <span>PostgreSQL Extension</span>
+      </div>
+      <h3 class="case-item__title">AI-DB Extension Benchmark</h3>
+      <p>Built a benchmark and evaluation workflow for AI-DB as a PostgreSQL extension, with recent integration of three core projects: <strong>HMAB</strong>, <strong>GRASP</strong>, and <strong>CoLSE</strong>, enabling unified testing and comparison under one extension-oriented runtime.</p>
+      <p><strong>Stack:</strong> PostgreSQL extension workflows, Python automation, reproducible benchmark harnesses, performance analysis.</p>
+      <p class="case-item__links">
+        <a href="https://github.com/AI-DB-UoM/dbtune">GitHub</a>
+      </p>
+    </article>
+
     <article class="case-item">
       <div class="case-item__meta">
         <span>System Design</span>
@@ -353,29 +493,10 @@ author_profile: false
         <div>
           <p>Designed an advisory backend for analytical data lake workloads, including workload ingestion, SQL parsing, and reusable decision logic for partitioning and intra-file layout choices.</p>
           <p><strong>Stack:</strong> Python, SQL parsing workflows, experiment harnesses, Dockerized service environment.</p>
-          <p class="case-item__links"><a href="https://github.com/Liuguanli/layout_advisor">Code</a></p>
+          <p class="case-item__links"><a href="https://github.com/Liuguanli/layout_advisor">GitHub</a></p>
         </div>
         <div class="case-item__media">
           <img src="/images/projects/layoutpilot-paper.png" alt="LayoutPilot paper figure">
-        </div>
-      </div>
-    </article>
-
-    <article class="case-item">
-      <div class="case-item__meta">
-        <span>Benchmarking</span>
-        <span>Drift-Aware</span>
-        <span>VLDB 2026</span>
-      </div>
-      <h3 class="case-item__title">DriftBench</h3>
-      <div class="case-item__grid">
-        <div>
-          <p>Built a modular benchmarking framework for evaluating system behavior under workload and data drift, with configurable workload generation and repeatable performance analysis.</p>
-          <p><strong>Stack:</strong> Python, benchmark DSL design, automation scripts, reproducible experiment pipelines.</p>
-          <p class="case-item__links"><a href="https://github.com/Liuguanli/DriftBench">Code</a></p>
-        </div>
-        <div class="case-item__media">
-          <img src="/images/projects/driftbench-paper.png" alt="DriftBench paper figure">
         </div>
       </div>
     </article>
@@ -397,8 +518,36 @@ author_profile: false
       </div>
       <h3 class="case-item__title">LLM-Assisted Query Agents</h3>
       <p>Developed agents that translate natural language requests into executable database workflows through retrieval, query decomposition, and result-grounded evaluation.</p>
-      <p class="case-item__links">Demo snapshots and prompt-to-query traces will be added as a case study.</p>
+      <p class="case-item__links">
+        <a href="https://github.com/AI-DB-UoM/complex_spatial_data_generation">GitHub</a>
+        <a href="https://findanexpert.unimelb.edu.au/scholarlywork/2270718-llm-enhanced-processing-of-complex-spatial-queries?cache=1772143387383">ADC 2025</a>
+      </p>
     </article>
+  </div>
+</section>
+
+<section class="portfolio-section">
+  <h2>Selected Publications</h2>
+  <p class="portfolio-section__note">This section now reads from structured data and will be connected to the Scholar sync harness in the next workflow steps.</p>
+  <div class="publication-list">
+    {% assign publications_sorted = site.data.publications | sort: "year" | reverse %}
+    {% for pub in publications_sorted %}
+    <article class="publication-item">
+      <h3 class="publication-item__title">
+        {{ pub.title }}
+        <span class="publication-badge">{{ pub.status | capitalize }}</span>
+      </h3>
+      <div class="publication-item__meta">
+        {{ pub.authors | join: ", " }}. <strong>{{ pub.venue }}</strong>, {{ pub.year }}.
+      </div>
+      <div class="publication-item__links">
+        {% if pub.pdf_url and pub.pdf_url != "" %}<a href="{{ pub.pdf_url }}">Paper</a>{% endif %}
+        {% if pub.arxiv_url and pub.arxiv_url != "" %} <a href="{{ pub.arxiv_url }}">arXiv</a>{% endif %}
+        {% if pub.doi_url and pub.doi_url != "" %} <a href="{{ pub.doi_url }}">DOI/Link</a>{% endif %}
+        {% if pub.code_url and pub.code_url != "" %} <a href="{{ pub.code_url }}">GitHub</a>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
   </div>
 </section>
 
@@ -412,10 +561,43 @@ author_profile: false
 </section>
 
 <section class="portfolio-section">
-  <h2>Timeline Snapshot</h2>
+  <h2>Work Experience</h2>
   <div class="timeline">
-    <p><strong>2024-Present:</strong> Postdoctoral Research Fellow, The University of Melbourne (backend systems, benchmarking frameworks, LLM-assisted data systems).</p>
-    <p><strong>2023-2024:</strong> Data Scientist / Data Infrastructure Engineer, nftDb (pipeline automation, RAG assistant, analytics workflows).</p>
-    <p><strong>2015-2017:</strong> Software Engineer, Baidu (IM backend services, protocol design, database performance tuning).</p>
+    {% for exp in site.data.experience %}
+    <div class="experience-item">
+      <p><strong>{{ exp.start }}-{{ exp.end }}:</strong> {{ exp.role }}, {{ exp.company }} ({{ exp.location }}).</p>
+      {% if exp.highlights and exp.highlights.size > 0 %}
+      {% for point in exp.highlights %}
+      <p>{{ point }}</p>
+      {% endfor %}
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="portfolio-section">
+  <h2>Mentoring, Teaching, and Research Service</h2>
+  <div class="teaching-service-card">
+    <h3>Mentoring and Supervision</h3>
+    <ul>
+      {% for item in site.data.teaching_service.mentoring %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Teaching</h3>
+    <ul>
+      {% for t in site.data.teaching_service.teaching %}
+      <li><strong>{{ t.course }}</strong>: {{ t.role }} ({{ t.period }}), {{ t.details }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Research Service</h3>
+    <ul>
+      {% for item in site.data.teaching_service.research_service %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
