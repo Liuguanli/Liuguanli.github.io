@@ -251,6 +251,12 @@ author_profile: false
   color: #ffffff !important;
 }
 
+.case-item__links a.link-pill--primary {
+  background: #0c7f63;
+  border-color: #0b745b;
+  color: #ffffff !important;
+}
+
 .publication-list {
   border-top: 1px solid var(--line);
 }
@@ -414,28 +420,24 @@ author_profile: false
 </section>
 
 <section class="portfolio-section">
-  <h2>Research & Engineering Focus</h2>
-  <p class="portfolio-section__note">Current focus areas linked to active systems, papers, and open-source delivery.</p>
+  <h2>Portfolio Tracks</h2>
+  <p class="portfolio-section__note">Each track will continue to grow with technical write-ups, demo snapshots, and code references.</p>
   <div class="track-list">
     <article class="track-item">
-      <strong>Drift-Aware Benchmarking Systems</strong>
-      <span>DriftBench and AI-DB benchmark workflows for reproducible workload and data drift evaluation.</span>
+      <strong>Data Layout and Query Performance Systems</strong>
+      <span>Lakehouse physical design, indexing, and cost-aware optimization.</span>
     </article>
     <article class="track-item">
-      <strong>PostgreSQL Extension Intelligence</strong>
-      <span>Extension-oriented benchmarking and integration of HMAB, GRASP, and CoLSE in a unified AI-DB runtime.</span>
+      <strong>Benchmarking and Drift-Aware Evaluation</strong>
+      <span>Controlled experiment pipelines for workload/data drift and reproducible system comparisons.</span>
     </article>
     <article class="track-item">
-      <strong>Data Layout and Query Performance</strong>
-      <span>Lakehouse physical design, indexing, and cost-aware optimization for analytical workloads.</span>
+      <strong>LLM-Assisted Data Workflows</strong>
+      <span>RAG and agent pipelines that convert natural language intent into executable database tasks.</span>
     </article>
     <article class="track-item">
-      <strong>LLM-Assisted Database Workflows</strong>
-      <span>Natural language to executable query pipelines with retrieval, decomposition, and result-grounded checks.</span>
-    </article>
-    <article class="track-item">
-      <strong>Open-Source Product Delivery</strong>
-      <span>GitHub-first development, PyPI releases, documentation websites, and repeatable CI/CD workflows.</span>
+      <strong>Backend and Data Platform Delivery</strong>
+      <span>PostgreSQL services, API layers, automation workflows, and production-style engineering practices.</span>
     </article>
   </div>
 </section>
@@ -457,8 +459,8 @@ author_profile: false
           <p><strong>Stack:</strong> Python, CLI workflows, workload/data generators, CI/CD pipelines, benchmark automation.</p>
           <p class="case-item__links">
             <a class="link-pill" href="https://github.com/Liuguanli/DriftBench">GitHub</a>
-            <a class="link-pill link-pill--primary" href="https://pypi.org/project/driftbench-db/"><i class="fab fa-python" aria-hidden="true"></i> PyPI</a>
-            <a class="link-pill link-pill--primary" href="https://www.driftbench.com/"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+            <a class="link-pill link-pill--primary" href="https://pypi.org/project/driftbench-db/">🐍 PyPI</a>
+            <a class="link-pill link-pill--primary" href="https://www.driftbench.com/">🌐 Website</a>
             <a class="link-pill" href="https://arxiv.org/abs/2510.10858">VLDB 2026</a>
           </p>
         </div>
