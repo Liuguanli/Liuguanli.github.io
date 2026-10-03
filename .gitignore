@@ -1,5 +1,10 @@
 .DS_Store
 
+# Offline CV sources, variants, backups, and build output.
+# Only the explicitly published copy in downloads/ is tracked.
+/cv/
+/cv_backup/
+
 # Jekyll build output and local caches
 _site/
 .jekyll-cache/

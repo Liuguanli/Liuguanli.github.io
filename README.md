@@ -2,16 +2,16 @@
 
 <div align="left">
   <img src="./image/head.png" alt="Guanli Liu" style="width: 120px; height: 128px; float: right; margin: 10px">
-  <p><strong>Software Engineer · Data Systems · AI for Databases</strong></p>
+  <p><strong>Software Engineer · Databases · Data Storage</strong></p>
   <p>
-    I am a software engineer and postdoctoral researcher at the University of Melbourne. I build scalable backend systems, data infrastructure, and performance-oriented data systems spanning ingestion, physical design, indexing, benchmarking, and retrieval. My research and engineering work has appeared in top database venues such as VLDB and ICDE, with a strong focus on reliability, scalability, debuggability, and efficient execution.
+    I now work at Microsoft Azure Storage, having previously been a Research Fellow at the University of Melbourne. My research covers data lakes and distributed databases, storage and indexing, query optimization and database tuning, and benchmarking. My research and engineering work has appeared in top database venues such as VLDB and ICDE, with a strong focus on reliability, scalability, debuggability, and efficient execution.
   </p>
   <p>
     Previously, I worked as a Data Scientist at nftDb and as a Software Engineer at Baidu. Across research and industry, I have delivered end-to-end systems involving backend services, data pipelines, benchmarking frameworks, query optimization components, and retrieval workflows. I am based in Melbourne, Australia, and open to remote and relocation opportunities.
   </p>
 </div>
 
-[CV](./cv/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/guanli-liu-11353058/) · [GitHub](https://github.com/Liuguanli) · [Email](mailto:liuguanli22@gmail.com)
+[CV](./downloads/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/guanli-liu-11353058/) · [GitHub](https://github.com/Liuguanli) · [Email](mailto:liuguanli22@gmail.com)
 
 ---
 
@@ -23,12 +23,12 @@
 
 ---
 
-### What I Work On
+### Research Interests
 
-- **Data layout and physical design**: building layout advisory systems, SQL workload parsers, and cost models for data lake style datasets.
-- **Benchmarking and evaluation**: designing frameworks to measure stability, drift sensitivity, latency, and I/O behavior across indexing and database tuning workloads.
-- **Indexing and retrieval systems**: developing learned indexes, spatial index structures, vector retrieval workflows, and LLM-assisted query processing systems.
-- **Production data engineering**: building ingestion pipelines, batch and streaming workflows, analytics models, and backend services for data-intensive applications.
+- **Data Lakes and Distributed Databases**: data lake architectures, data lake storage, and distributed database systems.
+- **Storage Optimization and Indexing**: physical data layout, storage optimization, and indexing for efficient data access.
+- **Query Optimization and Database Tuning**: query optimization, cost modeling, and database tuning for workload-specific performance.
+- **Benchmarking and Evaluation**: reproducible benchmarks and performance evaluation under changing data and workloads.
 
 ---
 
@@ -56,10 +56,12 @@
 
 ### Experience
 
-- **Postdoctoral Research Fellow / PhD Researcher**, The University of Melbourne, 2019-Present  
-  Leading research and engineering projects on database benchmarking, indexing, data layout, and AI-driven query processing.
+- **Azure Storage**, Microsoft, June 2026-Present
+- **Research Fellow**, The University of Melbourne, 2024-May 2026
+  Led research and engineering projects on database benchmarking, indexing, data layout, and AI-driven query processing.
 - **Data Scientist**, nftDb, 2023-2024  
   Built blockchain ingestion pipelines, dbt and SQL analytics workflows, BigQuery-based analysis, and an internal RAG assistant for engineering knowledge retrieval.
+- **PhD Researcher**, The University of Melbourne, 2019-2023
 - **Software Engineer**, Baidu, 2015-2017  
   Worked on large-scale messaging systems, message deduplication, and database performance optimization for internal communication platforms.
 
@@ -71,7 +73,7 @@
 - **Data Systems**: PostgreSQL, PostGIS, pgvector, BigQuery, SparkSQL, Apache Hudi
 - **Pipelines and Infrastructure**: Kafka, Airflow, dbt, REST APIs, Docker, Google Cloud Platform
 - **AI and Retrieval**: RAG pipelines, vector databases, embedding-based retrieval, PyTorch, scikit-learn
-- **Focus Areas**: backend systems, data infrastructure, benchmarking, query processing, learned indexes, spatial data systems
+- **Focus Areas**: data lakes, data lake storage, distributed databases, storage optimization, indexing, query optimization, database tuning, benchmarking
 
 ---
 
@@ -82,9 +84,29 @@
 
 ---
 
-### Building the CV PDFs
+### Offline CV files and the public download
 
-This repository includes multiple LaTeX CV variants under [`cv/`](./cv/). To build them locally:
+`cv/` and `cv_backup/` are local-only working folders. Their sources, PDF
+variants, fonts, and build files are ignored by Git and excluded from Jekyll
+builds. Existing local files are retained, but these folders will not be
+included in new clones. Back them up separately; do not use `git clean -fdx`,
+which deletes ignored files. Previously committed versions remain in Git history.
+
+The website serves only the reviewed public copy at
+[`downloads/cv.pdf`](./downloads/cv.pdf). Local CV builds do not update that copy
+automatically. To intentionally publish a new version:
+
+```bash
+cp cv/resume.pdf downloads/cv.pdf
+git add downloads/cv.pdf
+git commit -m "Update public CV"
+```
+
+Review the PDF before committing. Push only when it is ready to publish.
+
+### Building the local CV PDFs
+
+If the local `cv/` folder is present:
 
 ```bash
 cd cv

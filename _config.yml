@@ -2,18 +2,22 @@ locale: "en-US"
 site_theme: "default"
 title: "Guanli Liu"
 name: "Guanli Liu"
-description: "Postdoctoral Research Fellow — AI for Databases"
+description: "Microsoft Azure Storage — Databases and Data Storage"
 url: ""
 baseurl: ""
 repository: Liuguanli/Liuguanli.github.io
 remote_theme: academicpages/academicpages.github.io
 
+exclude:
+  - cv
+  - cv_backup
+
 author:
   avatar: "head.png"
   name: "Guanli Liu"
-  bio: "Software Engineer · Data Systems · Backend Infrastructure"
+  bio: "Software Engineer · Databases · Data Storage"
   location: "Melbourne, Australia"
-  employer: "University of Melbourne"
+  employer: "Microsoft"
   email: "liu.guanli22@gmail.com"
   github: "Liuguanli"
   linkedin: "guanli-liu-11353058"

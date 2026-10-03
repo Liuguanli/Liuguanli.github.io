@@ -1,12 +1,20 @@
-- company: "The University of Melbourne"
-  role: "Postdoctoral Research Fellow / PhD Researcher"
-  start: "2019"
+- company: "Microsoft"
+  role: "Azure Storage"
+  start: "Jun. 2026"
   end: "Present"
+  location: ""
+  highlights: []
+  logo: ""
+
+- company: "The University of Melbourne"
+  role: "Research Fellow"
+  start: "2024"
+  end: "May 2026"
   location: "Melbourne, Australia"
   highlights:
-    - "Leading research and engineering projects on database benchmarking, indexing, data layout, and AI-driven query processing."
-    - "Designing system prototypes, supervising junior researchers, and co-supervising master's students on spatial indexing and database systems."
-    - "Building backend systems and reproducible evaluation pipelines for data and AI workloads."
+    - "Led research and engineering projects on database benchmarking, indexing, data layout, and AI-driven query processing."
+    - "Designed system prototypes, supervised junior researchers, and co-supervised master's students on spatial indexing and database systems."
+    - "Built backend systems and reproducible evaluation pipelines for data and AI workloads."
   logo: ""
 
 - company: "nftDb"
@@ -17,6 +25,14 @@
   highlights:
     - "Built blockchain ingestion pipelines, dbt and SQL analytics workflows, and BigQuery-based analysis."
     - "Developed an internal RAG assistant for engineering knowledge retrieval."
+  logo: ""
+
+- company: "The University of Melbourne"
+  role: "PhD Researcher"
+  start: "2019"
+  end: "2023"
+  location: "Melbourne, Australia"
+  highlights: []
   logo: ""
 
 - company: "Baidu"

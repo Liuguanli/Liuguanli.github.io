@@ -403,13 +403,13 @@ author_profile: false
       <img src="/images/head.png" alt="Portrait of Guanli Liu">
     </figure>
     <div>
-      <p class="portfolio-hero__kicker fade-up">Guanli (Leo) Liu · Backend Systems · Data Infrastructure · Research Engineering</p>
+      <p class="portfolio-hero__kicker fade-up">Guanli (Leo) Liu · Databases · Data Storage · Research Engineering</p>
       <h1 class="fade-up">I build data and AI systems, then turn them into reproducible, measurable products.</h1>
       <p class="portfolio-hero__lead fade-up">
-        Postdoctoral researcher and engineer at the University of Melbourne. This site is organized as a growing portfolio of case studies across database systems, benchmarking, and LLM-assisted data workflows.
+        Now at Microsoft Azure Storage, previously a Research Fellow at the University of Melbourne. My research covers data lakes and distributed databases, storage and indexing, query optimization and database tuning, and benchmarking.
       </p>
       <div class="portfolio-hero__cta fade-up">
-        <a href="/cv/resume.pdf">View CV</a>
+        <a href="{{ '/downloads/cv.pdf' | relative_url }}">View CV</a>
         <a href="https://github.com/Liuguanli">GitHub</a>
         <a href="https://www.linkedin.com/in/guanli-liu/">LinkedIn</a>
         <a href="https://scholar.google.com/citations?hl=en&user=7e89UC8AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
@@ -420,24 +420,24 @@ author_profile: false
 </section>
 
 <section class="portfolio-section">
-  <h2>Portfolio Tracks</h2>
-  <p class="portfolio-section__note">Each track will continue to grow with technical write-ups, demo snapshots, and code references.</p>
+  <h2>Research Interests</h2>
+  <p class="portfolio-section__note">Database and storage systems: how data is organized, how queries are optimized, and how performance is evaluated.</p>
   <div class="track-list">
     <article class="track-item">
-      <strong>Data Layout and Query Performance Systems</strong>
-      <span>Lakehouse physical design, indexing, and cost-aware optimization.</span>
+      <strong>Data Lakes and Distributed Databases</strong>
+      <span>Data lake architectures, data lake storage, and distributed database systems.</span>
     </article>
     <article class="track-item">
-      <strong>Benchmarking and Drift-Aware Evaluation</strong>
-      <span>Controlled experiment pipelines for workload/data drift and reproducible system comparisons.</span>
+      <strong>Storage Optimization and Indexing</strong>
+      <span>Physical data layout, storage optimization, and indexing for efficient data access.</span>
     </article>
     <article class="track-item">
-      <strong>LLM-Assisted Data Workflows</strong>
-      <span>RAG and agent pipelines that convert natural language intent into executable database tasks.</span>
+      <strong>Query Optimization and Database Tuning</strong>
+      <span>Query optimization, cost modeling, and database tuning for workload-specific performance.</span>
     </article>
     <article class="track-item">
-      <strong>Backend and Data Platform Delivery</strong>
-      <span>PostgreSQL services, API layers, automation workflows, and production-style engineering practices.</span>
+      <strong>Benchmarking and Evaluation</strong>
+      <span>Reproducible benchmarks and performance evaluation under changing data and workloads.</span>
     </article>
   </div>
 </section>
@@ -567,7 +567,7 @@ author_profile: false
   <div class="timeline">
     {% for exp in site.data.experience %}
     <div class="experience-item">
-      <p><strong>{{ exp.start }}-{{ exp.end }}:</strong> {{ exp.role }}, {{ exp.company }} ({{ exp.location }}).</p>
+      <p><strong>{{ exp.start }}-{{ exp.end }}:</strong> {{ exp.role }}, {{ exp.company }}{% if exp.location and exp.location != "" %} ({{ exp.location }}){% endif %}.</p>
       {% if exp.highlights and exp.highlights.size > 0 %}
       {% for point in exp.highlights %}
       <p>{{ point }}</p>
