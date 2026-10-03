@@ -488,7 +488,7 @@ author_profile: false
       <div class="case-item__meta">
         <span>System Design</span>
         <span>Lakehouse</span>
-        <span>VLDB 2026 (Submitted)</span>
+        <span>VLDB 2026</span>
       </div>
       <h3 class="case-item__title">LayoutPilot / Layout Advisory</h3>
       <div class="case-item__grid">

@@ -46,7 +46,7 @@
 ### Selected Publications
 
 - **Guanli Liu**, Renata Borovica-Gajic. *Toward Drift-Aware Database Benchmarking (DriftBench)*. PVLDB 19(8): 1818-1825, 2026. [Paper](https://www.vldb.org/pvldb/vol19/p1818-liu.pdf) · [Code](https://github.com/Liuguanli/DriftBench)
-- **Guanli Liu**, Andreas Kipf, Renata Borovica-Gajic. *LayoutPilot: A Lakehouse Physical Design Advisor*. Submitted to VLDB 2026. [Paper](./papers/layoutpilot-vldb-demo-2026.pdf) · [Code](https://github.com/Liuguanli/layout_advisor)
+- **Guanli Liu**, Andreas Kipf, Renata Borovica-Gajic. *LayoutPilot: A Lakehouse Physical Design Advisor*. VLDB 2026. [Paper](./papers/layoutpilot-vldb-demo-2026.pdf) · [Code](https://github.com/Liuguanli/layout_advisor)
 - **Guanli Liu**, Renata Borovica-Gajic, Hai Lan, Zhifeng Bao. *Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts*. ICDE 2026.
 - Lankadinee Rathuwadu, **Guanli Liu**, Christopher Leckie, Renata Borovica-Gajic. *CoLSE: A Lightweight and Robust Hybrid Learned Model for Single-Table Cardinality Estimation using Joint CDF*. ICDE 2026.
 - **Guanli Liu**, Lars Kulik, Christian S. Jensen, Tianyi Li, Renata Borovica-Gajic, Jianzhong Qi. *Efficient Cost Modeling of Space-filling Curves*. VLDB 2025.

@@ -24,7 +24,7 @@
     - "Renata Borovica-Gajic"
   year: 2026
   venue: "VLDB"
-  status: "submitted"
+  status: "published"
   source: "manual"
   scholar_url: "https://scholar.google.com/citations?hl=en&user=7e89UC8AAAAJ&view_op=list_works&sortby=pubdate"
   arxiv_url: ""
@@ -32,7 +32,7 @@
   pdf_url: "/papers/layoutpilot-vldb-demo-2026.pdf"
   code_url: "https://github.com/Liuguanli/layout_advisor"
   featured: true
-  notes: "VLDB 2026 demo submission; title and authors verified against the local manuscript."
+  notes: "Publication status confirmed by the author; title and authors verified against the local manuscript."
 
 - id: icde-2026-rl-spatial
   title: "Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts"
