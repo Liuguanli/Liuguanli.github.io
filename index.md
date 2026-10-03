@@ -537,13 +537,14 @@ author_profile: false
     <article class="publication-item">
       <h3 class="publication-item__title">
         {{ pub.title }}
+        {% if pub.project %}<span class="publication-badge">{{ pub.project }}</span>{% endif %}
         <span class="publication-badge">{{ pub.status | capitalize }}</span>
       </h3>
       <div class="publication-item__meta">
         {{ pub.authors | join: ", " }}. <strong>{{ pub.venue }}</strong>, {{ pub.year }}.
       </div>
       <div class="publication-item__links">
-        {% if pub.pdf_url and pub.pdf_url != "" %}<a href="{{ pub.pdf_url }}">Paper</a>{% endif %}
+        {% if pub.pdf_url and pub.pdf_url != "" %}<a href="{{ pub.pdf_url | relative_url }}">Paper</a>{% endif %}
         {% if pub.arxiv_url and pub.arxiv_url != "" %} <a href="{{ pub.arxiv_url }}">arXiv</a>{% endif %}
         {% if pub.doi_url and pub.doi_url != "" %} <a href="{{ pub.doi_url }}">DOI/Link</a>{% endif %}
         {% if pub.code_url and pub.code_url != "" %} <a href="{{ pub.code_url }}">GitHub</a>{% endif %}
